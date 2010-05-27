@@ -58,10 +58,13 @@ jQuery(function($) {
           .attr('id', name + '_clone')
           .css({ position: "absolute", cursor: "pointer", opacity:0,
             top:elTop, left:elLeft,width:elWidth, height:elHeight,zIndex:100
-          }).click(function(){document.location = ($('#' + this.id + ' a').attr('href'));});
+          }).click(function(){
+            if ($('#' + this.id + ' a').attr('target') == '_blank')
+              window.open($('#' + this.id + ' a').attr('href'), $('#' + this.id + ' a').html());
+            else
+              document.location = ($('#' + this.id + ' a').attr('href'));
+          });
         
-        //el.css('opacity','0.0');
-
         el.hover(function(){ cPos = $('.bumpupbuttonwidget#'+name).position().top; newDivs[name].css({top:cPos, height:'140px'}); });
         newDivs[name].hover(
           function(){ cPos = $('.bumpupbuttonwidget#'+name).position().top; $(this).stop().css('top',cPos).animate({opacity:1.0, top:cPos-70, height:'210px'}, "fast"); },
