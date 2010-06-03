@@ -445,6 +445,29 @@ jQuery(function($) {
     });  
   }
 
+	if($("#post-94").length) {
+		var ribbon = $("#post-94 .ribbon");
+		var collisionform = $("#post-94 .collisionform");
+
+		ribbon.hover(function(){
+			$(this).css({opacity:0.85});
+		}, function() {
+			$(this).css({opacity:1});
+		});
+
+		ribbon.bind('click', function() {
+
+			$("body").append("<div id='jquery-overlay'></div>");
+			$("#jquery-overlay").css({zIndex:200,background:"black",opacity:0.85,height:$(document).height()}).fadeIn();
+			collisionform.css({zIndex:250}).center().fadeIn();
+
+			$("div#jquery-overlay, .close").click(function(){
+				$("body #jquery-overlay").remove();
+				collisionform.hide();
+			});
+			return false;
+		});
+	}
 
   $("#pikame").PikaChoose({thumb_height:30,thumb_width:30}); 
 
