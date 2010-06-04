@@ -469,6 +469,8 @@ jQuery(function($) {
 		});
 	}
 
-  $("#pikame").PikaChoose({thumb_height:30,thumb_width:30}); 
+  if ($("#pikame").length) {
+    $("#pikame").PikaChoose({thumb_height:30,thumb_width:30}); 
+  }
 
 });
