@@ -785,13 +785,13 @@ hr.blue {border-bottom:1px solid #1d4a9f;}
 
 .showcase-slider .scrollable{position:relative;overflow:hidden;height:90px;padding:0;}
 .showcase-slider .scrollable .items{width:30000em;position:absolute;text-align:center;}
-.showcase-slider .scrollable .items a{float:left;text-align:center;margin:2px 0 0 40px;width:143px;text-decoration:none;color:#555;font-size:8pt;}
+/*.showcase-slider .scrollable .items a{float:left;text-align:center;margin:2px 0 0 40px;width:143px;text-decoration:none;color:#555;font-size:8pt;}
 .showcase-slider .scrollable .items a .image {display:block;height:68px;overflow:hidden;}
 .showcase-slider .scrollable .items a img {display:block;margin:0 auto;}
-.showcase-slider .scrollable .items a:hover{background:#e4e4e4;}
+.showcase-slider .scrollable .items a:hover{background:#e4e4e4;}*/
 .showcase-slider .scrollable .item {position:relative!important;}
 
-.showcase-slider .scrollable .item .trims,
+/*.showcase-slider .scrollable .item .trims,
 .showcase-flyout .pane .vehicle .trims {
 	background:none repeat scroll 0 0 rgba(220,220,220,0.9)!important;
 	position:absolute!important;
@@ -827,7 +827,7 @@ hr.blue {border-bottom:1px solid #1d4a9f;}
 	background-position:left 3px;
 	background-repeat:no-repeat;
 }
-
+*/
 .showcase-slider .scrollable a.prev,
 .showcase-slider .scrollable a.next{position:relative;z-index:50;width:38px;height:90px!important;cursor:pointer;margin-top:0!Important;}
 .showcase-slider .scrollable .prev{float:left;  background: url('/wp-content/uploads/2010/02/small-gray-arrow-1.jpg') no-repeat center center; -webkit-border-bottom-left-radius:10px!important; -moz-border-radius-bottomleft:10px!important;}
@@ -865,9 +865,42 @@ hr.blue {border-bottom:1px solid #1d4a9f;}
 #showcase-flyout .pane{background:white;border:none;padding:0;margin:0;-webkit-box-shadow:none;-moz-box-shadow:none;-moz-border-radius-bottomleft:12px;-moz-border-radius-bottomright:12px;}
 #showcase-flyout .pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
 #showcase-flyout .pane .items .vehicle{position:relative;float:left;width:143px;text-align:center;}
-#showcase-flyout .pane .items .vehicle .trims{position:relative;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:300;text-align:left;}
-
+/*#showcase-flyout .pane .items .vehicle .trims{position:relative;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:300;text-align:left;}*/
 .showcase-flyout .name, .showcase-slider .name, .showcase .name {color:#999; font-size:11px;}
+
+/* trim hover */
+.dt-showcase .trims, .showcase-slider .trims, #showcase-flyout .trims {
+	display:none;
+	position:absolute!important;
+	top:0!important;
+	left:70px;	
+	background:none repeat scroll 0 0 #ccc!important;
+	border:solid 1px #aaa;
+	text-align:left!important;
+	padding:0 10px!important;
+	z-index:400;
+	white-space:nowrap;
+	width:300px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-moz-column-count:2;
+	-webkit-column-count:2;	
+}
+.dt-showcase .trims a, .showcase-slider .trims a, #showcase-flyout .trims a{
+	display:block;
+	font-size:10px!important;	
+	color:#666!important;
+	background-image:url("/wp-content/uploads/green_arrow_scroller.png");
+	background-position:left 5px!important;
+	background-repeat:no-repeat!important;
+	padding:2px 0 0 10px!important;
+}
+.dt-showcase .trims br, .showcase-slider .trims br, #showcase-flyout .trims br {
+	display:none;	
+}
+
+
+
 /**************************************
  * News Ticker
  * 
@@ -975,6 +1008,7 @@ select, input, textarea, input[type="checkbox"]{
 .collisionCenter {width:390px;}
 .tradein, .tireRequest, 
 .partsRequest, .serviceAppointment{width:768px;}
+.staffEmail {width:345px;}
 
 /* default style */
 .form {
@@ -1200,7 +1234,7 @@ td.emailRight {text-align:right !important; padding-right:5px;}
  * Email Window
  * 
 **************************************/
-#emailWindow{display:none;position:absolute;z-index:500;border:solid 1px black;background:white;width:360px;height:340px;padding:10px;}
+#emailWindow{display:none;position:absolute;z-index:500;}
 #emailWindow .staff-name {display:none;}
 #emailWindow .staff-email {display:none;}
 #emailWindow .button {float:left;}
@@ -1280,14 +1314,37 @@ float: left;
  * 
 **************************************/
 .staff { width:720px; }
-.staff .person { float:left; width:230px; height:260px; font:normal 11px arial; color:#999; background: url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg2.jpg) no-repeat; margin:5px; }
+.staff .person{
+	position:relative;
+	float:left;
+	width:230px;
+	font:normal 11px arial;
+	color:#999;
+	background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg2.jpg) no-repeat;
+	margin:5px 5px 30px;
+}
 .staff .person .photo { float:left; margin-right: 10px; padding:0; }
 .staff .person .name  { font-size:14px; }
 .staff .person .title { font-size:11px; }
 .staff .person .phone { font-size:13px; color:#1d4a9f; }
 .staff .person .email { display:block; padding:15px 0; }
 .staff .person .toggle { display:block; }
-.staff .person .bio-text {display:none; clear:both; font-size:9px; color:#1d4a9f; background: url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg.jpg) no-repeat; margin-top:18px; padding-top:4px;}
+.staff .person .bio-text{
+	display:none;
+	position:absolute;
+	font-size:11px;
+	color:#999;
+	background-color:#fff;
+	z-index:900;
+	padding:5px;
+	width:200px;
+	box-shadow: 2px 2px 2px #222;
+	-moz-box-shadow: 2px 2px 2px #222;
+	-webkit-box-shadow: 2px 2px 2px #222;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #555;
+}
 
 .mmf-response-output.mmf-mail-sent-ng,
 .mmf-response-output.mmf-mail-sent-ok{background:#090;color:white;}
