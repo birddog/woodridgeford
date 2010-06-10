@@ -479,7 +479,7 @@ margin-right:2em;
  * 
 **************************************/
 .showcase {
-	width: 750px;
+	/*width: 750px;*/
 	margin: 10px auto;
 }
 .showcase .vehicle {
