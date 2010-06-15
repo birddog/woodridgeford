@@ -1367,4 +1367,12 @@ float: left;
 .listings .search .quick-combo-search .combo .options{display:none;position:absolute;top:16px;left:-1px;z-index:8888;min-width:106px;overflow:hidden;background:white;padding:2px 4px;border:solid 1px #ccc;border-radius:0px 0px 4px 4px;-moz-border-radius:0px 0px 4px 4px;-webkit-border-radius:0px 0px 4px 4px;list-style:none;}
 .listings .search .quick-combo-search .combo .options a{display:block;text-decoration:none;color:black;margin-bottom:5px;}
 .listings .search .quick-combo-search .combo .options a:hover{color:#1D4A9F;}
-
+.dt-showcase .equipment,
+.dt-showcase .options,
+.bird_dog .detail .vehicle-desc,
+.bird_dog .detail .equipment .title,
+.bird_dog .listings .vehicles a .vehicle-desc,
+.bird_dog .listings .vehicles a .price-details .price,
+.bird_dog .listings .vehicles a .price-details .was,
+.bird_dog .listings .vehicles a .price-details .now{color:#1d4a9f!important;font-size:12px!important;}
+.listings .search .go-button {display:none;}
