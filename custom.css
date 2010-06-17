@@ -1376,3 +1376,4 @@ float: left;
 .bird_dog .listings .vehicles a .price-details .was,
 .bird_dog .listings .vehicles a .price-details .now{color:#1d4a9f!important;font-size:12px!important;}
 .listings .search .go-button {display:none;}
+.listings .search .advanced .search-sliders .go-button {display:inline-block;}
