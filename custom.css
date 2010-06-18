@@ -1075,7 +1075,11 @@ select, input, textarea, input[type="checkbox"]{
 
 .form select {width:143px;}
 .form  input, select {font-size:11px;vertical-align:middle;}
-
+.contactusSmall textarea {width:300px;}
+.preownedtestdrive textarea, .newtestdrive textarea,
+.contactus textarea, . {width:600px;}
+.partsRequest textarea, .contactFinance textarea, .contactFleet textarea { width:705px;}
+.collisionCenter textarea {360px;}
 
 /* form validation */
 span.wpcf7-not-valid-tip {
