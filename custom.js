@@ -425,7 +425,9 @@ jQuery(function($) {
     $("#stepDesc" + i).addClass("current");
   }
 
-  $("#pikame").PikaChoose({thumb_height:30,thumb_width:30});
+  if ($('#pikame').length) {
+    $("#pikame").PikaChoose({thumb_height:30,thumb_width:30});
+  }
 
   if($("#scnav").length){
     $('#scNav .navItem').bind('click', function() {
@@ -497,7 +499,6 @@ jQuery(function($) {
   if($("#slideout-showcase").length){
     // no-op
   }
-
 
   /* Detail page Lightbox */
   if ($('.detail .photos a.photo').length) {
