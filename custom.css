@@ -310,41 +310,53 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 /**************************************
 * Widgets showcase slider
 **************************************/
-.showcase-slider{border:solid 1px #999;background:white;height:114px!important;margin:5px -10px 2px!important;overflow:hidden;-webkit-border-radius:5px;-moz-border-radius:5px;}
-.showcase-slider .header{text-transform:uppercase;background:#f1f1f1;color:#1d4a9f;font-size:14px;font-weight:bold;height:22px;padding:2px 15px !important;position:relative;}
-.showcase-slider .showcase-tabs{border:none;height:inherit;line-height:16px;position:relative;top:-2px;list-style:none;float:right;clear:right;margin:0;padding:0;width:170px;display:inline !important;}
-.showcase-slider .showcase-tabs li{border:none;margin:0 5px!important;text-align:center;list-style:none;display:inline-block;padding:0;float:left;}
-.showcase-slider .showcase-tabs li a{display:inline-block;background-image:url('/wp-content/uploads/2010/03/tab-inverted.png');background-repeat:no-repeat;height:19px;width:75px;color:#fff;border:none;font-size:12px;float:left;}
-.showcase-slider .showcase-tabs li .current{background:url('/wp-content/uploads/2010/03/tab-inverted-grey.png')!important;color:#fff!important;}
-.showcase-slider .header ul.showcase-tabs a:hover,
-.showcase-slider .header ul.showcase-tabs li a.current:hover{background:url('/wp-content/uploads/2010/03/tab-inverted-grey.png')!important;color:#fff!important;text-decoration:underline;}
+.showcase-slider{border:solid 1px #999;background:white;height:114px!important;margin:3px -10px 2px!important;overflow:hidden;-webkit-border-radius:5px;-moz-border-radius:5px;}
+.showcase-slider .showcaseslider-tabs{display:none!important;border:none;height:inherit;line-height:16px;position:relative;top:-2px;list-style:none;float:right;margin:0;padding:0;}
+.showcase-slider .showcaseslider-tabs li{border:none;margin:0 5px!important;text-align:center;list-style:none;display:inline-block;margin:0;padding:0;}
+.showcase-slider .showcaseslider-tabs li a{display:block;background-image:url('/wp-content/uploads/2010/03/tab-inverted.png');background-repeat:no-repeat;height:19px;width:75px;color:#fff;border:none;font-size:12px;}
+.showcase-slider .showcaseslider-tabs li .current{background:url('/wp-content/uploads/2010/03/tab-inverted-grey.png')!important;color:#fff!important;}
+.showcase-slider .header{text-transform:uppercase;background:#f1f1f1;color:#2db34a;font-size:14px;font-weight:bold;height:22px;padding:2px 15px;position:relative;}
+.showcase-slider .header ul.showcaseslider-tabs a:hover,
+.showcase-slider .header ul.showcaseslider-tabs li a.current:hover{background:url('/wp-content/uploads/2010/03/tab-inverted-grey.png')!important;color:#fff!important;text-decoration:underline;}
 .showcase-slider .scrollable{position:relative;overflow:hidden;height:90px;padding:0;}
 .showcase-slider .scrollable .items{width:30000em;position:absolute;text-align:center;}
+/*
+This affected the .trims a  - Chad P
+.showcase-slider .scrollable .items a{float:left;text-align:center;margin:2px 0 0 40px;width:143px;text-decoration:none;color:#555;font-size:8pt;}
+.showcase-slider .scrollable .items a .image{display:block;height:68px;overflow:hidden;}
+.showcase-slider .scrollable .items a img{display:block;margin:0 auto;}
+.showcase-slider .scrollable .items a:hover{background:#e4e4e4;}*/
 .showcase-slider .scrollable .item{position:relative!important;}
 .showcase-slider .scrollable a.prev,
 .showcase-slider .scrollable a.next{position:relative;z-index:50;width:38px;height:90px!important;cursor:pointer;margin-top:0!Important;}
 .showcase-slider .scrollable .prev{float:left;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.jpg') no-repeat center center;-webkit-border-bottom-left-radius:10px!important;-moz-border-radius-bottomleft:10px!important;}
 .showcase-slider .scrollable .next{float:right;margin-top:-90px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.jpg') no-repeat center center;-webkit-border-bottom-right-radius:10px!important;-moz-border-radius-bottomright:10px!important;}
+.showcase-slider .scrollable .prev{float:left;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.jpg') no-repeat center center !important;-webkit-border-bottom-left-radius:10px;-moz-border-radius:0 0 0 10px;}
+.showcase-slider .scrollable .next{float:right;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.jpg') no-repeat center center !important;-webkit-border-bottom-right-radius:10px;-moz-border-radius:0 0 10px 0;}
 
-/* Showcase Flyout style */
-#showcase-flyout{overflow:hidden;width:740px;height:119px;z-index:1000;border:1px solid #999;border-top:0;background:#fff;-webkit-border-bottom-right-radius:12px;-webkit-border-bottom-left-radius:12px;-moz-border-radius:0 0 12px 12px;-webkit-box-shadow:1px 1px 3px #888;}
-#showcase-flyout .tabs{position:relative;height:19px;background:#f1f1f1;color:white;text-align:left;border-color:#eee;overflow:hidden;}
-#showcase-flyout .tabs ul{display:inline-block;text-align:left;padding:0;margin:0;list-style:none;}
+/**************************************
+* Widgets showcase flyout
+**************************************/
+#showcase-flyout{overflow:hidden;width:840px;height:95px;z-index:100;border:1px solid #999;border-top:0;background:#fff;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;-webkit-box-shadow:1px 1px 5px #888;box-shadow:2px 2px 5px #666;-moz-box-shadow:2px 2px 5px #666;}
+#showcase-flyout .showcase-tabs{display:none!important;position:relative;height:19px;background:#f1f1f1;color:white;text-align:left;border-color:#eee;overflow:hidden;}
+#showcase-flyout .showcase-tabs ul{display:inline-block;text-align:left;padding:0;margin:0;list-style:none;}
 /* not applied from the looks of it ul.tabs li seems to be the formatt but looking for .tabs ul */
-#showcase-flyout .tabs li{position:absolute;top:-1px;left:110px;float:none;display:inline-block;padding:0;margin:0;list-style:none;}
-#showcase-flyout .tabs li:first-child{left:25px;}
-#showcase-flyout .tabs li a,#showcase-flyout .tabs li a.current:hover{border:none;padding:0;margin:0;display:block;height:19px;line-height:22px;width:75px;color:#fff;background-image:url('/wp-content/uploads/2010/03/tab-inverted.png');background-repeat:no-repeat;-moz-border-radius:0;opacity:1.0!important;}
-#showcase-flyout .tabs li a.current,#showcase-flyout .tabs li a:hover{background:url('/wp-content/uploads/2010/03/tab-inverted-grey.png')!important;color:#fff!important;}
-#showcase-flyout .prev{position:absolute;top:15px;left:0;width:20px;height:100px;opacity:1.0;z-index:200;-webkit-border-bottom-left-radius:12px;-moz-border-radius-bottomleft:12px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.jpg') no-repeat center center;}
-#showcase-flyout .next{position:absolute;top:15px;right:0;width:20px;height:100px;opacity:1.0;z-index:200;-webkit-border-bottom-right-radius:12px;-moz-border-radius-bottomright:12px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.jpg') no-repeat center center;}
-#showcase-flyout .prev.disabled,#showcase-flyout .next.disabled{opacity:0.5;}
-#showcase-flyout .pane{background:white;border:none;padding:0;margin:0;-webkit-box-shadow:none;-moz-box-shadow:none;-moz-border-radius-bottomleft:12px;-moz-border-radius-bottomright:12px;}
-#showcase-flyout .pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
-#showcase-flyout .pane .items .vehicle{position:relative;float:left;width:143px;text-align:center;}
-.showcase-flyout .name,.showcase-slider .name,.showcase .name{color:#999;font-size:11px;}
+#showcase-flyout .showcase-tabs li{position:absolute;top:-1px;left:110px;float:none;display:inline-block;padding:0;margin:0;list-style:none;}
+#showcase-flyout .showcase-tabs li:first-child{left:25px;}
+#showcase-flyout .showcase-tabs li a,
+#showcase-flyout .showcase-tabs li a.current:hover{border:none;padding:0;margin:0;display:block;height:19px;line-height:22px;width:75px;color:#2db34a!important;background-image:url('/wp-content/uploads/2010/03/tab-inverted.png');background-repeat:no-repeat;-moz-border-radius:0;opacity:1.0!important;}
+#showcase-flyout .showcase-tabs li a.current,
+#showcase-flyout .showcase-tabs li a:hover{background:url('/wp-content/uploads/2010/03/tab-inverted-grey.png')!important;color:#fff!important;}
+#showcase-flyout .showcase-prev{position:absolute;top:0;left:0;width:20px;height:97px;margin:0 0 1px 1px;z-index:200;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;background:url('/wp-content/uploads/small-gray-arrow-1.jpg') no-repeat center center;}
+#showcase-flyout .showcase-next{position:absolute;top:0;right:0;width:20px;height:97px;margin:0 1px 1px 0;z-index:200;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;background:url('/wp-content/uploads/small-gray-arrow-2.jpg') no-repeat center center;}
+#showcase-flyout .disabled{opacity:0.3;}
+#showcase-flyout .showcase-pane{border:none;padding:0;margin:0;}
+#showcase-flyout .showcase-pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
+#showcase-flyout .showcase-pane .items .vehicle{position:relative;float:left;width:163px;text-align:center;}
+
 /* trim hover */
-.dt-showcase .trims,.showcase-slider .trims,#showcase-flyout .trims{display:none;position:absolute!important;top:0!important;left:70px;background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;text-align:left!important;padding:0 10px!important;z-index:400;white-space:nowrap;width:300px;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-column-count:2;-webkit-column-count:2;}
-.dt-showcase .trims a,.showcase-slider .trims a,#showcase-flyout .trims a{display:block;font-size:10px!important;color:#666!important;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 5px!important;background-repeat:no-repeat!important;padding:2px 0 0 10px!important;}
+.dt-showcase .trims,.showcase-slider .trims,#showcase-flyout .trims{background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:70px;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-column-count:2;-webkit-column-count:2;z-index:400;white-space:nowrap;}
+.dt-showcase .trims a,.showcase-slider .trims a,#showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/green_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;}
 .dt-showcase .trims br,.showcase-slider .trims br,#showcase-flyout .trims br{display:none;}
 
 /**************************************
