@@ -329,10 +329,10 @@ This affected the .trims a  - Chad P
 .showcase-slider .scrollable .item{position:relative!important;}
 .showcase-slider .scrollable a.prev,
 .showcase-slider .scrollable a.next{position:relative;z-index:50;width:38px;height:90px!important;cursor:pointer;margin-top:0!Important;}
-.showcase-slider .scrollable .prev{float:left;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.jpg') no-repeat center center;-webkit-border-bottom-left-radius:10px!important;-moz-border-radius-bottomleft:10px!important;}
-.showcase-slider .scrollable .next{float:right;margin-top:-90px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.jpg') no-repeat center center;-webkit-border-bottom-right-radius:10px!important;-moz-border-radius-bottomright:10px!important;}
-.showcase-slider .scrollable .prev{float:left;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.jpg') no-repeat center center !important;-webkit-border-bottom-left-radius:10px;-moz-border-radius:0 0 0 10px;}
-.showcase-slider .scrollable .next{float:right;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.jpg') no-repeat center center !important;-webkit-border-bottom-right-radius:10px;-moz-border-radius:0 0 10px 0;}
+.showcase-slider .scrollable .prev{float:left;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.png') no-repeat center center;-webkit-border-bottom-left-radius:10px!important;-moz-border-radius-bottomleft:10px!important;}
+.showcase-slider .scrollable .next{float:right;margin-top:-90px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.png') no-repeat center center;-webkit-border-bottom-right-radius:10px!important;-moz-border-radius-bottomright:10px!important;}
+.showcase-slider .scrollable .prev{float:left;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.png') no-repeat center center !important;-webkit-border-bottom-left-radius:10px;-moz-border-radius:0 0 0 10px;}
+.showcase-slider .scrollable .next{float:right;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.png') no-repeat center center !important;-webkit-border-bottom-right-radius:10px;-moz-border-radius:0 0 10px 0;}
 
 /**************************************
 * Widgets showcase flyout
@@ -347,8 +347,8 @@ This affected the .trims a  - Chad P
 #showcase-flyout .showcase-tabs li a.current:hover{border:none;padding:0;margin:0;display:block;height:19px;line-height:22px;width:75px;color:#1f64d9!important;background-image:url('/wp-content/uploads/2010/03/tab-inverted.png');background-repeat:no-repeat;-moz-border-radius:0;opacity:1.0!important;}
 #showcase-flyout .showcase-tabs li a.current,
 #showcase-flyout .showcase-tabs li a:hover{background:url('/wp-content/uploads/2010/03/tab-inverted-grey.png')!important;color:#fff!important;}
-#showcase-flyout .showcase-prev{position:absolute;top:0;left:0;width:20px;height:97px;margin:0 0 1px 1px;z-index:200;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;background:url('/wp-content/uploads/small-gray-arrow-1.jpg') no-repeat center center;}
-#showcase-flyout .showcase-next{position:absolute;top:0;right:0;width:20px;height:97px;margin:0 1px 1px 0;z-index:200;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;background:url('/wp-content/uploads/small-gray-arrow-2.jpg') no-repeat center center;}
+#showcase-flyout .showcase-prev{position:absolute;top:0;left:0;width:20px;height:97px;margin:0 0 1px 1px;z-index:200;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.png') no-repeat center center;}
+#showcase-flyout .showcase-next{position:absolute;top:0;right:0;width:20px;height:97px;margin:0 1px 1px 0;z-index:200;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.png') no-repeat center center;}
 #showcase-flyout .disabled{opacity:0.3;}
 #showcase-flyout .showcase-pane{border:none;padding:0;margin:0;}
 #showcase-flyout .showcase-pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
