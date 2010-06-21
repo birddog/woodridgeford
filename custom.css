@@ -360,10 +360,10 @@ This affected the .trims a  - Chad P
 */
 .dt-showcase .trims,
 .showcase-slider .trims,
-#showcase-flyout .trims{display:none;background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:70px;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;z-index:400;white-space:nowrap;}
+#showcase-flyout .trims{display:none;background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;z-index:400;}
 .dt-showcase .trims a,
 .showcase-slider .trims a,
-#showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/blue_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;}
+#showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/blue_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;white-space:nowrap;}
 .dt-showcase .trims br,
 .showcase-slider .trims br,
 #showcase-flyout .trims br,
@@ -374,7 +374,7 @@ This affected the .trims a  - Chad P
 .showcase-slider .scrollable .item .trims a,
 #showcase-flyout .showcase-pane .vehicle .trims a{display:block;float:none!important;background-image:url("/wp-content/uploads/blue_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;padding:0 5px 1px 10px!important;margin:0!important;text-align:left!important;font-size:10px!important;color:#1f64d9!important;white-space:nowrap;}
 .showcase-slider .scrollable .item .trims a:hover{color:#1f64d9!important;-moz-border-radius:0!important;-webkit-border-radius:0!important;text-decoration:underline;background-color:transparent;background-image:url("/wp-content/uploads/green_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;}
-#showcase-flyout .showcase-pane .items .vehicle .trims{position:absolute;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:190;text-align:left;min-width:200px!important;white-space:nowrap;}
+#showcase-flyout .showcase-pane .items .vehicle .trims{position:absolute;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:190;text-align:left;min-width:200px!important;}
 
 /**************************************
 * News Ticker
