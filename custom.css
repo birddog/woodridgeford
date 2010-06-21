@@ -500,10 +500,7 @@ td.emailRight{text-align:right !important;padding-right:5px;}
 #emailWindow .button{float:left;}
 #emailWindow #close-window{float:right;}
 .combo-search .combo{width:90px!important;}
-/* Showcase */
-.showcase .vehicle{display:inline-block;position:relative;margin:10px;text-align:center;background:white;}
-.showcase .vehicle .trims,
-.showcase-flyout .pane .vehicle .trims{display:none;position:absolute;top:5px;width:auto;}
+
 body.page-id-43 #site-content > .grid_10{margin-left:0;}
 /* margin fix */ 
 body.page-id-43 .showcase{width:800px;margin:0 auto;}
@@ -512,28 +509,6 @@ body.page-id-43 .entry > p{display:none;}
 /* empty paragraph tag removal */
 body.page-id-43 .showcase .detail .pane{-moz-border-radius:0;border-left:none;border-right:none;border-bottom:none;}
 body.page-id-43 .showcase .detail .tabs{left:-1px;}
-.bird_dog .listings,.bird_dog .detail{font-size:11px;font-family:arial;}
-.bird_dog .detail .go-button{width:23px;height:21px;background:#222 url(http://www.woodridgeford.com/wp-content/uploads/GoButton.png) no-repeat top left;}
-.showcase .detail{border:1px solid #999;width:100%;}
-.showcase .detail h1{color:#1d4a9f!important;font-size:14px;font-weight:bold;padding:5px;margin-bottom:0;}
-.showcase .detail .vehicle-info{background-image:url("http://assets2.dealertrend.com/images/themes/vehicle_inventory/bird_dog/details-info.png");background-repeat:no-repeat;float:left;width:368px;height:320px;text-align:center;font-weight:bold;color:#999;font-size:18px;}
-.showcase .detail .vehicle-info .msrp{margin-top:25%;}
-.showcase .detail .photos{background-image:url("http://assets2.dealertrend.com/images/themes/vehicle_inventory/bird_dog/details-photo.png");background-repeat:no-repeat;width:424px;height:320px;float:left;overflow:normal;margin:0 0 10px;}
-.showcase .detail .photos ol{list-style-type:none;margin:0!important;}
-.showcase .detail .photos ol li{float:left;}
-.showcase .detail .photos .exterior-colors,
-.showcase .detail .photos .interior-colors{display:block;margin:0 10px 10px;}
-.showcase .detail .photos .exterior-colors .swatch{float:left;width:25px;height:25px;margin-right:5px;}
-.showcase .detail .photos .exterior-colors label{display:none;}
-.showcase .detail .photos .interior-colors .swatch{float:left;width:25px;height:25px;margin-right:5px;}
-.showcase .detail .photos .interior-colors label{display:none;}
-.showcase .detail .photos .exterior-images{position:relative;height:200px;vertical-align:middle;}
-.showcase .detail .photos .exterior-images .file{display:none;position:absolute;top:-50px;left:40px;}
-.showcase .detail .photos .exterior-images .file:first-child{display:block;}
-.showcase-slider .scrollable .prev{float:left;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.jpg') no-repeat center center !important;-webkit-border-bottom-left-radius:10px;-moz-border-radius:0 0 0 10px;}
-.showcase-slider .scrollable .next{float:right;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.jpg') no-repeat center center !important;-webkit-border-bottom-right-radius:10px;-moz-border-radius:0 0 10px 0;}
-.bird_dog .detail .vehicle-info .vehicle-buttons a{display:block;float:left;}
-.search-sliders .slider-container label{display:none!important;}
 
 /**************************************
 * Bios'
@@ -557,24 +532,6 @@ body.page-id-43 .showcase .detail .tabs{left:-1px;}
 .phoneBio{font-size:13px;color:#1d4a9f;}
 .emailBio{padding-bottom:15px;}
 .textBio{display:none;font-size:9px;color:#1d4a9f;background-image:url(/wp-content/uploads/2010/03/bioBg.jpg);background-repeat:no-repeat;margin-top:18px;padding-top:4px;}
-.listings .search .quick-combo-search{display:inline-block;padding:10px 0 10px 5px;text-align:left;}
-.listings .search .quick-combo-search select{font-size:11px;}
-.listings .search .quick-combo-search label{vertical-align:middle;display:inline-block;text-transform:uppercase;float:left;padding:3px 3px 0 0;}
-.listings .search .quick-combo-search .combo{position:relative;display:inline-block;vertical-align:middle;width:90px;height:16px;font:normal 11px arial;text-align:left;white-space:nowrap;background:#eee url(http://assets1.dealertrend.com/images/themes/vehicle_inventory/bird_dog/down_arrow.gif) center right no-repeat;padding:1px 12px 1px 2px;border:solid 1px #ccc;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;list-style:none;cursor:pointer;}
-.listings .search .quick-combo-search .combo .options{display:none;position:absolute;top:16px;left:-1px;z-index:8888;min-width:106px;overflow:hidden;background:white;padding:2px 4px;border:solid 1px #ccc;border-radius:0px 0px 4px 4px;-moz-border-radius:0px 0px 4px 4px;-webkit-border-radius:0px 0px 4px 4px;list-style:none;}
-.listings .search .quick-combo-search .combo .options a{display:block;text-decoration:none;color:black;margin-bottom:5px;}
-.listings .search .quick-combo-search .combo .options a:hover{color:#1D4A9F;}
-.dt-showcase .equipment,
-.dt-showcase .options,
-.bird_dog .detail .vehicle-desc,
-.bird_dog .detail .equipment .title,
-.bird_dog .listings .vehicles a .vehicle-desc,
-.bird_dog .listings .vehicles a .price-details .price,
-.bird_dog .listings .vehicles a .price-details .was,
-.bird_dog .listings .vehicles a .price-details .now{color:#1d4a9f!important;font-size:12px!important;}
-.listings .search .go-button{display:none;background-image:url(/wp-content/uploads/GoButton.png);background-color:#1D4A9F;border:none;width:23px;height:21px;text-indent:-1000em;cursor:pointer;/* hand-shaped cursor */
-cursor:hand;/* for IE 5.x */}
-.listings .search .advanced .search-sliders .go-button{display:inline-block;}
 
 /*************************************/
 /* Inventory tweaks
