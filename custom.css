@@ -14,7 +14,7 @@ p, .text, td,
 p{margin:0 0 0.5em;}
 h1,h2,h3,h4,h5{color:#999;font-weight:bold;margin-bottom:0.75em;}
 h1{font-size:18px;}
-h2{font-size:16px;color:#1D4A9F;}
+h2{font-size:16px;color:#1d4a9f;}
 h3{font-size:14px;}
 h4{font-size:13px;color:#222;}
 h5{font-size:12px;}
@@ -595,7 +595,7 @@ td.emailRight{text-align:right !important;padding-right:5px;}
 #div_contact select{font-size:11px;color:#999;}
 #div_contact select option{padding:2px;color:#999;border:none;}
 .white td{color:#ffffff;}
-.contactTitle td:first-child{color:#2db34a;}
+.contactTitle td:first-child{color:#1d4a9f;}
 td.emailRight{text-align:right !important;padding-right:5px;}
 .contactTitle{height:30px;}
 #emailWindow{display:none;position:absolute;z-index:500;}
