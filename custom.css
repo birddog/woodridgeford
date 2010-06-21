@@ -271,7 +271,7 @@ td#footer a:hover{color:#697b9e;font-weight:bold;text-decoration:none;}
 .dt-showcase .detail .photos .exterior-images .file:first-child{display:block;}
 
 /* Showcase */
-.showcase-flyout .showcase-pane .vehicle .trims{display:none;position:absolute;top:5px;min-width:150px!important;-webkit-column-count:2;-moz-column-count:2;}
+.showcase-flyout .showcase-pane .vehicle .trims{display:none;position:absolute;top:5px;min-width:150px!important;}
 
 #quick-find{color:#999;background-color:white;padding:3px 5px 0 5px;font:normal 9pt arial;height:26px;margin-top:10px;border:solid 1px #aaa;-webkit-border-top-left-radius:7px;-moz-border-radius:7px 0 0 0;-webkit-box-shadow:1px 1px 3px #888;}
 #quick-find td img{vertical-align:middle;}
@@ -355,9 +355,15 @@ This affected the .trims a  - Chad P
 #showcase-flyout .showcase-pane .items .vehicle{position:relative;float:left;width:163px;text-align:center;}
 
 /* trim hover */
-.dt-showcase .trims,.showcase-slider .trims,#showcase-flyout .trims{background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:70px;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-column-count:2;-webkit-column-count:2;z-index:400;white-space:nowrap;}
-.dt-showcase .trims a,.showcase-slider .trims a,#showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/green_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;}
-.dt-showcase .trims br,.showcase-slider .trims br,#showcase-flyout .trims br{display:none;}
+.dt-showcase .trims,
+.showcase-slider .trims,
+#showcase-flyout .trims{background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:70px;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;z-index:400;white-space:nowrap;}
+.dt-showcase .trims a,
+.showcase-slider .trims a,
+#showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/blue_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;}
+.dt-showcase .trims br,
+.showcase-slider .trims br,
+#showcase-flyout .trims br{display:none;}
 
 /**************************************
 * News Ticker
