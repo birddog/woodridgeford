@@ -228,7 +228,7 @@ td#footer a:hover{color:#697b9e;font-weight:bold;text-decoration:none;}
 **************************************/
 .dt-showcase{width:750px;margin:10px auto;}
 .dt-showcase .vehicle{display:inline-block;position:relative;margin:5px!important;text-align:center;background:white;}
-.dt-showcase .vehicle{background:#eee;padding:5px;margin:5px!important;color:#e21c22;}
+.dt-showcase .vehicle{background:#eee;padding:5px;margin:5px!important;color:#1d4a9f;}
 .dt-showcase p{margin:5px 10px;}
 .dt-showcase .models{padding:10px;}
 .dt-showcase .model{float:left;width:180px;height:100px;text-align:center;}
@@ -257,7 +257,7 @@ td#footer a:hover{color:#697b9e;font-weight:bold;text-decoration:none;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-tell-a-friend{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-send-friend.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-loan-calculator{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-calculate.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail{padding:0!important;}
-.dt-showcase .detail h1{color:#2db34a !important;font-size:14px;font-weight:bold;padding:5px;margin-bottom:0;}
+.dt-showcase .detail h1{color:#1d4a9f !important;font-size:14px;font-weight:bold;padding:5px;margin-bottom:0;}
 .dt-showcase .detail .vehicle-info{border:none!important;background:url("http://assets2.dealertrend.com/images/themes/vehicle_inventory/bird_dog/details-info.png") top center no-repeat!important;float:left;width:370px!important;height:300px!important;font:bold 10pt arial;color:#999;padding:25px 2px 10px!important;margin:0!important;}
 .dt-showcase .detail .vehicle-info .msrp{margin-top:5%;}
 .dt-showcase .detail .vehicle-info label{width:180px!important;}
@@ -296,8 +296,8 @@ td#footer a:hover{color:#697b9e;font-weight:bold;text-decoration:none;}
 .quick_links a,
 .quick_links a:hover{background:none;!important}
 .frm-btn-new-test-drive,
-.frm-btn-used-test-drive{color:#2db34a;cursor:pointer;padding:5px 5px 2px;float:left;}
-hr.blue{border-bottom:1px solid #2db34a;}
+.frm-btn-used-test-drive{color:#1d4a9f;cursor:pointer;padding:5px 5px 2px;float:left;}
+hr.blue{border-bottom:1px solid #1d4a9f;}
 .frm-btn-new-test-drive.active,
 .frm-btn-used-test-drive.active{color:#999;}
 .frm-btn-new-test-drive:hover,
@@ -575,7 +575,7 @@ cursor:hand;/* for IE 5.x */}
 .bird_dog .listings .search .quick-combo-search .combo{position:relative;display:inline-block;vertical-align:middle;width:90px;height:16px;font:normal 11px arial;text-align:left;white-space:nowrap;background:#eee url(http://assets1.dealertrend.com/images/themes/vehicle_inventory/bird_dog/down_arrow.gif) center right no-repeat;padding:1px 12px 1px 2px;border:solid 1px #ccc;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;list-style:none;cursor:pointer;}
 .bird_dog .listings .search .quick-combo-search .combo .options{display:none;position:absolute;top:16px;left:-1px;z-index:8888;min-width:106px;overflow:hidden;background:white;padding:2px 4px;border:solid 1px #ccc;border-radius:0px 0px 4px 4px;-moz-border-radius:0px 0px 4px 4px;-webkit-border-radius:0px 0px 4px 4px;list-style:none;}
 .bird_dog .listings .search .quick-combo-search .combo .options a{display:block;text-decoration:none;color:black;margin-bottom:5px;}
-.bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#1D4A9F;}
+.bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#1d4a9f;}
 .dt-showcase .equipment,
 .dt-showcase .options,
 .bird_dog .detail .vehicle-desc,
@@ -583,7 +583,7 @@ cursor:hand;/* for IE 5.x */}
 .bird_dog .listings .vehicles a .vehicle-desc,
 .bird_dog .listings .vehicles a .price-details .price,
 .bird_dog .listings .vehicles a .price-details .was,
-.bird_dog .listings .vehicles a .price-details .now{color:#2db34a!important;}
+.bird_dog .listings .vehicles a .price-details .now{color:#1d4a9f!important;}
 .bird_dog .listings .search .grad.toggle{height:23px;}
 .bird_dog .detail .vehicle-info .vehicle-buttons a{display:block;float:left;}
 .bird_dog .detail .vehicle-desc{font-size:14px;}
@@ -597,7 +597,7 @@ cursor:hand;/* for IE 5.x */}
 .bird_dog .listings .search .quick-combo-search .combo{position:relative;display:inline-block;vertical-align:middle;width:90px;height:16px;font:normal 11px arial;text-align:left;white-space:nowrap;background:#eee url(http://assets1.dealertrend.com/images/themes/vehicle_inventory/bird_dog/down_arrow.gif) center right no-repeat;padding:1px 12px 1px 2px;border:solid 1px #ccc;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;list-style:none;cursor:pointer;}
 .bird_dog .listings .search .quick-combo-search .combo .options{display:none;position:absolute;top:16px;left:-1px;z-index:8888;min-width:106px;overflow:hidden;background:white;padding:2px 4px;border:solid 1px #ccc;border-radius:0px 0px 4px 4px;-moz-border-radius:0px 0px 4px 4px;-webkit-border-radius:0px 0px 4px 4px;list-style:none;}
 .bird_dog .listings .search .quick-combo-search .combo .options a{display:block;text-decoration:none;color:black;margin-bottom:5px;}
-.bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#2db34a;}
+.bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#1d4a9f;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/woodridge-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/woodridge-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
 input.go-button {width:23px;height:21px;background: #222 url(/wp-content/uploads/GoButton.png) no-repeat top left;border:none;color:transparent;text-indent:-100px;}
