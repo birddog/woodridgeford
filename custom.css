@@ -499,16 +499,17 @@ td.emailRight{text-align:right !important;padding-right:5px;}
 #emailWindow .staff-email{display:none;}
 #emailWindow .button{float:left;}
 #emailWindow #close-window{float:right;}
-.combo-search .combo{width:90px!important;}
 
+.combo-search .combo{width:90px!important;}
 body.page-id-43 #site-content > .grid_10{margin-left:0;}
 /* margin fix */ 
-body.page-id-43 .showcase{width:800px;margin:0 auto;}
+body.page-id-43 .dt-showcase{width:800px;margin:0 auto;}
 /* width fix */ 
 body.page-id-43 .entry > p{display:none;}
 /* empty paragraph tag removal */
-body.page-id-43 .showcase .detail .pane{-moz-border-radius:0;border-left:none;border-right:none;border-bottom:none;}
-body.page-id-43 .showcase .detail .tabs{left:-1px;}
+body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
+.search-sliders .slider-container label{display:none!important;}
+.search-sliders .slider-container label{display:none!important;}
 
 /**************************************
 * Bios'
