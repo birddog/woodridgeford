@@ -1260,6 +1260,7 @@ body.page-id-43 .showcase .detail .pane { -moz-border-radius:0;border-left:none;
 body.page-id-43 .showcase .detail .tabs {left:-1px;}
 
 .bird_dog .listings, .bird_dog .detail { font-size:11px; font-family:arial; }
+.bird_dog .detail .go-button {width:23px;height:21px;background: #222 url(http://www.woodridgeford.com/wp-content/uploads/GoButton.png) no-repeat top left;}
 
 .showcase .detail {border:1px solid #999; width:100%;}
 .showcase .detail h1 {color:#1d4a9f!important; font-size:14px; font-weight:bold; padding:5px;margin-bottom:0;}
