@@ -560,7 +560,7 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .bird_dog .listings .search .grad.toggle img{display:none;}
 .bird_dog .listings .search .grad.toggle > div{background:url(/wp-content/uploads/green-arrow.jpg) scroll no-repeat 0 0 transparent!important;height:25px;width:34px;display:inline-block;vertical-align:middle;}
 .bird_dog .detail .fuel_economy,
-.detail .fuel-economy{padding-top:10px!important;background-image:url(/wp-content/uploads/woodridge-tab-hash-pattern.jpg) !important;background-repeat:no-repeat !important;background-position:right top !important;}
+.detail .fuel-economy{padding-top:10px!important;background-image:url(/wp-content/uploads/2010/03/tab-hash-pattern.png) !important;background-repeat:no-repeat !important;background-position:right top !important;}
 .bird_dog .listings .search .quick-combo-search{display:inline-block;padding:10px 0 10px 5px;text-align:left;}
 .bird_dog .listings .search .quick-combo-search select{font-size:11px;}
 .bird_dog .listings .search .quick-combo-search label{vertical-align:middle;display:inline-block;text-transform:uppercase;float:left;padding:3px 3px 0 0;}
@@ -568,8 +568,8 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .bird_dog .listings .search .quick-combo-search .combo .options{display:none;position:absolute;top:16px;left:-1px;z-index:8888;min-width:106px;overflow:hidden;background:white;padding:2px 4px;border:solid 1px #ccc;border-radius:0px 0px 4px 4px;-moz-border-radius:0px 0px 4px 4px;-webkit-border-radius:0px 0px 4px 4px;list-style:none;}
 .bird_dog .listings .search .quick-combo-search .combo .options a{display:block;text-decoration:none;color:black;margin-bottom:5px;}
 .bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#1d4a9f;}
-.bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/woodridge-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
-.bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/woodridge-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
+.bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/2010/03/thumbnails-end.png) no-repeat scroll 0 0 transparent!important;}
+.bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/2010/03/thumbnails-begin.png) no-repeat scroll 0 0 transparent!important;}
 input.go-button {width:23px;height:21px;background: #222 url(/wp-content/uploads/GoButton.png) no-repeat top left;border:none;color:transparent;text-indent:-100px;}
 
 /**********************************************/
