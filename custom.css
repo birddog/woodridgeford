@@ -493,9 +493,9 @@ ul#steps li span{display:block;font-size:10px;}
 ul#steps li{color:#CCCCCC;display:block;float:left;font-size:14px;font-weight:bold;margin-right:10px;width:110px;}
 #tradeEstimate .next{float:right!important;}
 #tradeEstimate .next, #tradeEstimate .prev ,
-.btnsubmit{background-color:rgb(45,179,74);color:#fff;display:block;float:left;font-size:12px;padding:5px;margin-top:5px;border:1px solid #ddd;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.btnsubmit{background-color:#1d4a9f;color:#fff;display:block;float:left;font-size:12px;padding:5px;margin-top:5px;border:1px solid #ddd;-moz-border-radius:5px;-webkit-border-radius:5px;}
 #tradeEstimate .next:hover, #tradeEstimate .prev:hover ,
-.btnsubmit:hover,.btnsubmit:focus{background-color:rgb(45,179,74);}
+.btnsubmit:hover,.btnsubmit:focus{background-color:#1d4a9f;}
 /*.wrap{float:left;}
 .form-item{margin:0 0 5px 10px;clear:both;}
 .form-item .description{font-size:9px;color:#999;}
@@ -552,13 +552,13 @@ ul#steps li span{font-size:11px;display:block;}
 #tradeEstimate #step-4 .form-item{width:218px;}
 #tradeEstimate #step-5 .form-item{width:40%;}
 #tradeEstimate .next,
-#tradeEstimate .prev{display:block;padding:5px;background-color:rgb(45,179,74);color:#fff;font-size:12px;}
+#tradeEstimate .prev{display:block;padding:5px;background-color:#1d4a9f;color:#fff;font-size:12px;}
 #tradeEstimate a.next:hover,
-#tradeEstimate a.prev:hover{background-color:rgb(45,179,74);}
+#tradeEstimate a.prev:hover{background-color:#1d4a9f;}
 #tradeEstimate .prev{float:left;}
 #tradeEstimate .next{float:right;}
 #tradeEstimate > p{margin-left:0!important;margin-top:10px;}
-#tradeEstimate > p > input{display:block;padding:5px;background-color:rgb(45,179,74);color:#fff;font-size:12px;cursor:pointer;}*/
+#tradeEstimate > p > input{display:block;padding:5px;background-color:#1d4a9f;color:#fff;font-size:12px;cursor:pointer;}*/
 
 /**************************************
 * Flash App Pages
