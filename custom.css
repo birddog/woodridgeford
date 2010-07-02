@@ -101,6 +101,7 @@ div#quicktools ul.first{width:150px;}
 div#quicktools ul.last{width:135px;}
 div#quicktools ul li{background-image:url(/wp-content/uploads/2010/03//quickmenu_bullet_blue.jpg);}
 div#quicknewsblog {width:224px;}
+div#quicknewsblog .quicklinksTitle {padding:0!important;}
 div#quickhours{position:relative;width:250px;padding-right:0;}
 div#quickhours div.quicklinksTitle{height:24px;padding:0 0 0 10px;}
 div#quickhours ul{margin:0;padding:0 0 0 10px;}
