@@ -388,6 +388,7 @@ This affected the .trims a  - Chad P
 #news-ticker .scrollable{position:relative;overflow:hidden;height:140px;padding:0;}
 #news-ticker .scrollable .items{width:30000em;position:absolute;text-align:center;}
 #news-ticker .scrollable .item{float:left;margin-left:7px;text-align:center;}
+#news-ticker .scrollable .item, #news-ticker .scrollable .item img{width:138px!important;}
 #news-ticker .scrollable .sliderwidget-prev,
 #news-ticker .scrollable .sliderwidget-next{position:relative;z-index:50;width:20px;height:130px;padding:1px;cursor:pointer;}
 #news-ticker .scrollable .sliderwidget-next{float:left;background:transparent url('/wp-content/uploads/2010/02/small-arrow1.png') no-repeat center center;}
