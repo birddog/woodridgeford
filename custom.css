@@ -251,7 +251,7 @@ td#footer a:hover{color:#697b9e;font-weight:bold;text-decoration:none;}
 .dt-showcase .equipment{font-weight:bold;color:#009;}
 .dt-showcase .equipment li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:999;font-weight:normal;}
 .dt-showcase .equipment li:before{content:'\2022 ';}
-.dt-showcase .photo-gallery-button{margin-left:180px;margin-top:10px;color:transparent;width:85;height:24;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
+.dt-showcase .photo-gallery-button{text-indent:-999px;margin-left:180px;margin-top:10px;color:transparent;width:85;height:24;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-facebook{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-facebook.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-twitter{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-twitter.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-test-drive{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-book-test-drive.jpg) center center no-repeat;color:transparent!important;}
