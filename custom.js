@@ -875,6 +875,9 @@ jQuery(function($) {
   if ($('.detail .photos a.photo').length) {
     $('.bird_dog .detail .photos .photo').attr('rel','lightbox');
   }
+  
+
+
 
 });
 
