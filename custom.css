@@ -105,6 +105,9 @@ body.page-parent #home-content{}
 #footer-bottom .footer-row div ul.last {
 	width:120px;
 }
+#footer-bottom .footer-row div.qm ul.last {
+	width:170px;
+}
 #footer-bottom ul {
 	float:left;
 	padding:0 0 0 1.5em;
