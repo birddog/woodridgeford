@@ -92,6 +92,7 @@ body.page-parent #home-content{}
 #footer-bottom a:hover{color:#1d4a9f;}
 #footer-bottom h5 a {
 	color:#1d4a9f;
+	font-size:14px;
 }
 #footer-bottom .footer-row {
 	background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff;	
