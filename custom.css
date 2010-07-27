@@ -41,7 +41,7 @@ hr{border:0;color:#999;background-color:#999;height:1px;width:100%;text-align:le
 #header #phone-numbers table td{text-align:right;}
 #header #phone-numbers strong{font:bold 11pt;color:#1f64d9;}
 #site-content{margin:0;}
-body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
+body.page-parent #home-content{}
 #home-1.widget-zones{margin:0;}
 #contact-us-page{padding:50px;}
 .entry{padding:0 0 10px;border-bottom:1px solid #999;margin-bottom:5px;}
