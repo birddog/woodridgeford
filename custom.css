@@ -89,9 +89,9 @@ body.page-parent #home-content{}
 	color:#555;
 	font-weight:bold;
 }
-#footer-bottom a:hover{color:#e21c22;}
+#footer-bottom a:hover{color:#1d4a9f;}
 #footer-bottom h5 a {
-	color:#e21c22;
+	color:#1d4a9f;
 }
 #footer-bottom .footer-row {
 	background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff;	
