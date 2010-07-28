@@ -81,7 +81,7 @@ body.page-parent #home-content{}
 /**************************************
 * Footer
 **************************************/
-#footer-bottom, #breakout-footer {
+#breakout-footer {
 	-moz-border-radius-bottomleft:8px;
 	-webkit-border-bottom-left-radius:8px;
 	-moz-border-radius-bottomright:8px;
