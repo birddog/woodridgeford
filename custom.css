@@ -82,7 +82,10 @@ body.page-parent #home-content{}
 * Footer
 **************************************/
 #footer-bottom {
-	
+	-moz-border-radius-bottomleft:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	-webkit-border-bottom-right-radius:8px;
 }
 #footer-bottom a{
 	color:#555;
