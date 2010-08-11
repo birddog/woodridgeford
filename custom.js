@@ -702,7 +702,8 @@ function getPageSize() {
 		pageWidth = xScroll;
 	}
 
-	arrayPageSize = new Array(pageWidth, pageHeight, windowWidth, windowHeight) return arrayPageSize;
+	arrayPageSize = new Array(pageWidth, pageHeight, windowWidth, windowHeight);
+	return arrayPageSize;
 }
 
 function pause(numberMillis) {
