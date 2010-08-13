@@ -236,6 +236,10 @@ body.page-parent #home-content{}
 	top:auto;
 	width:170px;
 	z-index:0;
+	-moz-border-radius-bottomleft:8px;
+	-moz-border-radius-topright:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-webkit-border-top-left-radius:8px;
 }
 #explorer2011 .nav li > .sub > li {
 	text-align:right;
