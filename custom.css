@@ -209,7 +209,7 @@ body.page-parent #home-content{}
 	width:170px;
 	float:left;
 }
-#explorer2011 .nav li {
+#explorer2011 .nav > li {
 	text-align:right;
 	float:none!important;
 	-moz-border-radius-topleft:8px;
