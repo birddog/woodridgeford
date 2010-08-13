@@ -230,7 +230,7 @@ body.page-parent #home-content{}
 	list-style:none;
 	margin:0 0 5px 0;
 	padding:0 0 5px;
-	background-color:#00AAE8;
+	background-color:#1D4A9F;
 	position:relative;
 	left:auto;
 	top:auto;
@@ -248,7 +248,7 @@ body.page-parent #home-content{}
 	color:#222;
 }
 #explorer2011 .nav li.active {
-	background-color:#00AAE8;
+	background-color:#1D4A9F;
 }
 #explorer2011 .nav li.active a {
 	border-bottom:1px solid #9BD5EF;
