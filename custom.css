@@ -212,6 +212,8 @@ body.page-parent #home-content{}
 #explorer2011 .nav li {
 	text-align:right;
 	float:none!important;
+	-moz-border-radius-topleft:8px;
+	-webkit-border-top-left-radius:8px;		
 }
 #explorer2011 .nav li > a{
 	font-weight:bold;
@@ -224,8 +226,6 @@ body.page-parent #home-content{}
 	display:block;
 	outline:none;
 	border-bottom:1px solid #fff;
-	-moz-border-radius-topleft:8px;
-	-webkit-border-top-left-radius:8px;	
 }        
 #explorer2011 .nav li > .sub {
 	display:none;
