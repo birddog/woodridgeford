@@ -638,74 +638,72 @@ jQuery(function($) {
 	
 	/* Ford Explorer 2011 feature gallery */
 	if($('#explorer2011').length){
-                
-                // set general variables for elements
-                var primaryMenu = $('#explorer2011 .nav li a');
-                var subMenu = $('#explorer2011 .nav li .sub li');
-                var thumbs = $('#explorer2011 #gallery .thumbs img');
-                var enlarge = $('#explorer2011 #gallery .enlarge');
-                var parentMenuIndex = 1;
-                
-                // Bind actions to primay menu item
-                primaryMenu.bind('click', function() {
-                    parentMenuIndex = primaryMenu.index(this) + 1;
-                    
-                    // swap to correct gallery
-                    if($('#gallery.active').index('#gallery.active') != parentMenuIndex){
-                        $('#gallery.active').removeClass('active').hide();
-                        $('.g' + parentMenuIndex + '-1').addClass('active').show();
-                    }
-                    //deactivate previous active menu item
-                    $('#explorer2011 .nav .active').find('.sub').hide();
-                    $('#explorer2011 .nav').find('.active').removeClass('active');
-                    
-                    // set active menu and submenu
-                    $(this).parent().addClass('active').find('.sub').toggle('fast');
-                    $(this).parent().find('.sub li:first').addClass('active');
-                    
-                    // reset main image to first of this gallery
-                    $('#gallery.active .thumbs img.active').removeClass('active');
-                    var smSrc = $('#gallery.active .thumbs img:first').addClass('active').attr('src');
-                    var splitSrc = smSrc.split('/');
-                    var medSrc = splitSrc[0] + '/med/' + splitSrc[2];
-                    $('#explorer2011 #gallery.active .main .image img').attr('src', medSrc);
-                    
-                    return false;
-                });
-                
-                subMenu.bind('click', function() {
-                    var subIndex = $(this).parent().find('li').index($(this)) + 1;
-                    
-                    $('#gallery.active').removeClass('active').hide();
-                    $('.g' + parentMenuIndex + '-' + subIndex).addClass('active').show();
-                    
-                    // set active menu and submenu
-                    $(this).parent().find('.active').removeClass('active');
-                    $(this).addClass('active');
-                    
-                    // reset main image to first of this gallery
-                    $('#gallery.active .thumbs img.active').removeClass('active');
-                    var smSrc = $('#gallery.active .thumbs img:first').attr('src');
-                    var splitSrc = smSrc.split('/');
-                    var medSrc = splitSrc[0] + '/med/' + splitSrc[2];
-                    $('#explorer2011 #gallery.active .main .image img').attr('src', medSrc);
-                    
-                    return false;
-                })
-                
-                thumbs.bind('click', function() {
-                    var src = $(this).attr('src');
-                    var splitSrc = src.split('/');
-                    var medSrc = splitSrc[0] + '/med/' + splitSrc[2];
-                    var lrgSrc = splitSrc[0] + '/lrg/' + splitSrc[2];
-                    $(this).parent().find('.active').removeClass('active');
-                    $(this).addClass('active');
-                    enlarge.parent().attr('href', lrgSrc);
-                    $('#explorer2011 #gallery .main .image img').attr('src', medSrc);
-                });
-                
-                
-            }	
+	
+		// set general variables for elements
+		var primaryMenu = $('#explorer2011 .nav li a');
+		var subMenu = $('#explorer2011 .nav li .sub li');
+		var thumbs = $('#explorer2011 #gallery .thumbs img');
+		var enlarge = $('#explorer2011 #gallery .enlarge');
+		var parentMenuIndex = 1;
+		
+		// Bind actions to primay menu item
+		primaryMenu.bind('click', function() {
+		    parentMenuIndex = primaryMenu.index(this) + 1;
+		    
+		    // swap to correct gallery
+		    if($('#gallery.active').index('#gallery.active') != parentMenuIndex){
+			$('#gallery.active').removeClass('active').hide();
+			$('.g' + parentMenuIndex + '-1').addClass('active').show();
+		    }
+		    //deactivate previous active menu item
+		    $('#explorer2011 .nav .active').find('.sub').hide();
+		    $('#explorer2011 .nav').find('.active').removeClass('active');
+		    
+		    // set active menu and submenu
+		    $(this).parent().addClass('active').find('.sub').toggle('fast');
+		    $(this).parent().find('.sub li:first').addClass('active');
+		    
+		    // reset main image to first of this gallery
+		    $('#gallery.active .thumbs img.active').removeClass('active');
+		    var smSrc = $('#gallery.active .thumbs img:first').addClass('active').attr('src');
+		    var splitSrc = smSrc.split('/');
+		    var medSrc = splitSrc[0] + splitSrc[1] + '/med/' + splitSrc[3];
+		    $('#explorer2011 #gallery.active .main .image img').attr('src', medSrc);
+		    
+		    return false;
+		});
+		
+		subMenu.bind('click', function() {
+		    var subIndex = $(this).parent().find('li').index($(this)) + 1;
+		    
+		    $('#gallery.active').removeClass('active').hide();
+		    $('.g' + parentMenuIndex + '-' + subIndex).addClass('active').show();
+		    
+		    // set active menu and submenu
+		    $(this).parent().find('.active').removeClass('active');
+		    $(this).addClass('active');
+		    
+		    // reset main image to first of this gallery
+		    $('#gallery.active .thumbs img.active').removeClass('active');
+		    var smSrc = $('#gallery.active .thumbs img:first').attr('src');
+		    var splitSrc = smSrc.split('/');
+		    var medSrc = splitSrc[0] + splitSrc[1] + '/med/' + splitSrc[3];
+		    $('#explorer2011 #gallery.active .main .image img').attr('src', medSrc);
+		    
+		    return false;
+		})
+		
+		thumbs.bind('click', function() {
+		    var src = $(this).attr('src');
+		    var splitSrc = src.split('/');
+		    var medSrc = splitSrc[0] + '/med/' + splitSrc[2];
+		    var lrgSrc = splitSrc[0] + '/lrg/' + splitSrc[2];
+		    $(this).parent().find('.active').removeClass('active');
+		    $(this).addClass('active');
+		    enlarge.parent().attr('href', lrgSrc);
+		    $('#explorer2011 #gallery .main .image img').attr('src', medSrc);
+		});
+	}	
 
 });
 
