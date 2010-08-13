@@ -237,9 +237,7 @@ body.page-parent #home-content{}
 	width:170px;
 	z-index:0;
 	-moz-border-radius-bottomleft:8px;
-	-moz-border-radius-topright:8px;
 	-webkit-border-bottom-left-radius:8px;
-	-webkit-border-top-left-radius:8px;
 }
 #explorer2011 .nav li > .sub > li {
 	text-align:right;
@@ -254,6 +252,8 @@ body.page-parent #home-content{}
 }
 #explorer2011 .nav li.active {
 	background-color:#1D4A9F;
+	-moz-border-radius-topright:8px;
+	-webkit-border-top-left-radius:8px;	
 }
 #explorer2011 .nav li.active a {
 	border-bottom:1px solid #9BD5EF;
