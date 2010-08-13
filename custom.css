@@ -242,7 +242,7 @@ body.page-parent #home-content{}
 	-webkit-border-bottom-left-radius:8px;
 }
 #explorer2011 .nav li > .sub > li {
-	text-align:right;
+	text-align:right!important;
 	color:#fff;
 	padding:2px 10px;
 	cursor:pointer;
