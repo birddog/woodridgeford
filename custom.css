@@ -231,6 +231,10 @@ body.page-parent #home-content{}
 	margin:0 0 5px 0;
 	padding:0 0 5px;
 	background-color:#00AAE8;
+	position:relative;
+	left:auto;
+	top:auto;
+	width:auto;
 }
 #explorer2011 .nav li > .sub > li {
 	text-align:right;
