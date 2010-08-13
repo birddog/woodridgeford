@@ -276,9 +276,12 @@ body.page-parent #home-content{}
 	float:left;
 	width:150px;
 }
+#explorer2011 #gallery .thumbs br {display:none;}
 #explorer2011 #gallery .thumbs img {
 	opacity:0.7;
 	cursor:pointer;
+	float:left;
+	margin:0 5px 5px 0;
 }
 #explorer2011 #gallery .thumbs img.active,
 #explorer2011 #gallery .thumbs img:hover {
