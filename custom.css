@@ -250,12 +250,12 @@ body.page-parent #home-content{}
 	background-color:#9BD5EF;
 	color:#222;
 }
-#explorer2011 .nav li.active {
+#explorer2011 .nav > li.active {
 	background-color:#1D4A9F;
-	-moz-border-radius-topright:8px;
+	-moz-border-radius-topleft:8px;
 	-webkit-border-top-left-radius:8px;	
 }
-#explorer2011 .nav li.active a {
+#explorer2011 .nav > li.active a {
 	border-bottom:1px solid #9BD5EF;
 	color:#fff;
 }
