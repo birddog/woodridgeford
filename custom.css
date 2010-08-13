@@ -243,6 +243,7 @@ body.page-parent #home-content{}
 }
 #explorer2011 .nav li > .sub > li {
 	text-align:right!important;
+	float:none;
 	color:#fff;
 	padding:2px 10px;
 	cursor:pointer;
