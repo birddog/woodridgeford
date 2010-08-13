@@ -696,8 +696,8 @@ jQuery(function($) {
 		thumbs.bind('click', function() {
 		    var src = $(this).attr('src');
 		    var splitSrc = src.split('/');
-		    var medSrc = splitSrc[0] + '/med/' + splitSrc[2];
-		    var lrgSrc = splitSrc[0] + '/lrg/' + splitSrc[2];
+		    var medSrc = splitSrc[0] + splitSrc[1] + '/med/' + splitSrc[3];
+		    var lrgSrc = splitSrc[0] + splitSrc[1] + '/lrg/' + splitSrc[3];
 		    $(this).parent().find('.active').removeClass('active');
 		    $(this).addClass('active');
 		    enlarge.parent().attr('href', lrgSrc);
