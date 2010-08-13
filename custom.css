@@ -235,6 +235,7 @@ body.page-parent #home-content{}
 	left:auto;
 	top:auto;
 	width:170px;
+	z-index:0;
 }
 #explorer2011 .nav li > .sub > li {
 	text-align:right;
