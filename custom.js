@@ -667,7 +667,7 @@ jQuery(function($) {
 		    $('#gallery.active .thumbs img.active').removeClass('active');
 		    var smSrc = $('#gallery.active .thumbs img:first').addClass('active').attr('src');
 		    var splitSrc = smSrc.split('/');
-		    var medSrc = splitSrc[0] + splitSrc[1] + splitSrc[2] + '/med/' + splitSrc[4];
+		    var medSrc = '/' + splitSrc[0] + '/' + splitSrc[1] + '/' + splitSrc[2] + '/med/' + splitSrc[4];
 		    $('#explorer2011 #gallery.active .main .image img').attr('src', medSrc);
 		    
 		    return false;
@@ -687,7 +687,7 @@ jQuery(function($) {
 		    $('#gallery.active .thumbs img.active').removeClass('active');
 		    var smSrc = $('#gallery.active .thumbs img:first').attr('src');
 		    var splitSrc = smSrc.split('/');
-		    var medSrc = splitSrc[0] + splitSrc[1] + splitSrc[2] +  '/med/' + splitSrc[4];
+		    var medSrc = '/' + splitSrc[0] + '/' + splitSrc[1] + '/' + splitSrc[2] +  '/med/' + splitSrc[4];
 		    $('#explorer2011 #gallery.active .main .image img').attr('src', medSrc);
 		    
 		    return false;
@@ -696,8 +696,8 @@ jQuery(function($) {
 		thumbs.bind('click', function() {
 		    var src = $(this).attr('src');
 		    var splitSrc = src.split('/');
-		    var medSrc = splitSrc[0] + splitSrc[1] + splitSrc[2] +  '/med/' + splitSrc[4];
-		    var lrgSrc = splitSrc[0] + splitSrc[1] + splitSrc[2] +  '/lrg/' + splitSrc[4];
+		    var medSrc = '/' + splitSrc[0] + '/' + splitSrc[1] + '/' + splitSrc[2] +  '/med/' + splitSrc[4];
+		    var lrgSrc = '/' + splitSrc[0] + '/' + splitSrc[1] + '/' + splitSrc[2] + '/lrg/' + splitSrc[4];
 		    $(this).parent().find('.active').removeClass('active');
 		    $(this).addClass('active');
 		    enlarge.parent().attr('href', lrgSrc);
