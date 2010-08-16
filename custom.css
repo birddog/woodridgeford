@@ -400,7 +400,7 @@ body.page-parent #home-content{}
 .bird_dog .ui-widget-content .ui-state-hover{background:url(/wp-content/uploads/slider-grabbie.png) repeat-x scroll 50% 50% #F6F6F6!important;}
 
 .quick_links a,
-.quick_links a:hover{background:none;!important}
+.quick_links a:hover{background-color:#1D4A9F!important;}
 .frm-btn-new-test-drive,
 .frm-btn-used-test-drive{color:#1d4a9f;cursor:pointer;padding:5px 5px 2px;float:left;}
 hr.blue{border-bottom:1px solid #1d4a9f;}
