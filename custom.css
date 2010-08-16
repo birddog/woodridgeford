@@ -372,7 +372,16 @@ body.page-parent #home-content{}
 #quick-find table{width:100%;margin:0;padding:0;}
 #quick-find td a{text-decoration:none;color:#333;}
 
-#inventory-search{color:#999;font:normal 8pt arial;padding-right:10px;border:solid 1px #888;-webkit-border-radius:5px;-webkit-border-top-left-radius:0px;-moz-border-radius:0 5px 5px 5px;background:url(/wp-content/uploads/2010/02/inv-search.png) no-repeat 2px right;-webkit-box-shadow:0px 1px 2px #aaa;}
+#inventory-search{
+	color:#999;
+	padding-right:15px;
+	border:solid 1px #888;
+	-webkit-border-radius:5px;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius:0 5px 5px 5px;
+	background:url(/wp-content/uploads/2010/02/inv-search.png) no-repeat left 2px #fff;
+	-webkit-box-shadow:0px 1px 2px #aaa;
+}
 
 .bird_dog .listings .vehicles .vehicle:hover{background:white url(/wp-content/uploads/2010/03/vehicle-grad-hover.jpg) repeat-x bottom left;}
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .drive_train,
