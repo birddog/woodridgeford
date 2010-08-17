@@ -31,6 +31,10 @@
           <ul>
           <?php
             wp_list_pages('child_of='.$dm_page->ID.'&depth=1&title_li=&sort_column=menu_order');
+            // TODO:
+            // Change this to be nested within top level LI rather than wrapped by a ton of
+            // garbage
+            //
             //$toppages = wp_list_pages('echo=0&child_of='.$dm_page->ID.'&depth=1&title_li=&sort_column=menu_order');
             //$menuitem = explode('<li class',$toppages); 
             //$n = count($menuitem);
