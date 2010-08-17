@@ -30,21 +30,21 @@
         <div class='nav'>
           <ul>
           <?php
-            //wp_list_pages('child_of='.$dm_page->ID.'&depth=1&title_li=&sort_column=menu_order');
+            wp_list_pages('child_of='.$dm_page->ID.'&depth=1&title_li=&sort_column=menu_order');
             // TODO:
             // Change this to be nested within top level LI rather than wrapped by a ton of
             // garbage
             //
-            $toppages = wp_list_pages('echo=0&child_of='.$dm_page->ID.'&depth=1&title_li=&sort_column=menu_order');
-            $menuitem = explode('<li class',$toppages); 
-            $n = count($menuitem);
-            for ($i = 1;$i<$n;$i++){
-                preg_match('/page-item-[0-9]*/', $menuitem[$i],$id); 
-                $id2 = str_replace("page-item-","",$id);
-                $x = $id2[0];
-                $submenu = wp_list_pages('echo=0&depth=1&child_of='.$x);
-                echo '<li id="kwick_'.$i.'">' . $menuitem[$i] .'<ul class="submenu">'. $submenu .'</ul></li>';
-            }
+            //$toppages = wp_list_pages('echo=0&child_of='.$dm_page->ID.'&depth=1&title_li=&sort_column=menu_order');
+            //$menuitem = explode('<li class',$toppages); 
+            //$n = count($menuitem);
+            //for ($i = 1;$i<$n;$i++){
+            //    preg_match('/page-item-[0-9]*/', $menuitem[$i],$id); 
+            //    $id2 = str_replace("page-item-","",$id);
+            //    $x = $id2[0];
+            //    $submenu = wp_list_pages('echo=0&depth=1&child_of='.$x);
+            //    echo '<li id="navitem-'.$i.'">' . $menuitem[$i] .'<ul class="submenu">'. $submenu .'</ul></li>';
+            //}
           ?>
           </ul>
         </div>
