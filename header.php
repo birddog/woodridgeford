@@ -29,7 +29,25 @@
       <div id="menubar" class="grid_12 alpha omega">
         <div class='nav'>
           <ul>
-          <?php wp_list_pages('child_of='.$dm_page->ID.'&depth=1&title_li=&sort_column=menu_order'); ?>
+          <?php
+            //wp_list_pages('child_of='.$dm_page->ID.'&depth=1&title_li=&sort_column=menu_order');
+            $toppages = wp_list_pages('echo=0&child_of='.$dm_page->ID.'&depth=1&title_li=&sort_column=menu_order');
+            $menuitem = explode('<li class',$toppages); 
+            $n = count($menuitem);
+            for ($i = 1;$i<$n;$i++){
+                preg_match('/page-item-[0-9]*/', $menuitem[$i],$id); 
+                $id2 = str_replace("page-item-","",$id);
+                $x = $id2[0];
+                $submenu = wp_list_pages('echo=0&title_li=&depth=2&child_of='.$x);
+                echo '<li id="kwick_'.$i.'">
+                        <div class="wrapper">
+                                <div class="col1"><h3><li class'.$menuitem[$i].'</h3>
+                                <ul class="menu2">'.$submenu.'</ul></div> 
+                                 <div id="info_'.$x.'" class="col2" style="display: none;"> This is an info area. </div>
+                        </div>
+                      </li>';
+            }
+          ?>
           </ul>
         </div>
       </div>
