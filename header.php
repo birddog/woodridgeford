@@ -42,8 +42,8 @@
                 preg_match('/page-item-[0-9]*/', $menuitem[$i],$id); 
                 $id2 = str_replace("page-item-","",$id);
                 $x = $id2[0];
-                $submenu = wp_list_pages('echo=0&title_li=&depth=2&child_of='.$x);
-                echo '<li id="kwick_'.$i.'">' . $menuitem[$i] .'<ul class="menu2">'. $submenu .'</ul></li>';
+                $submenu = wp_list_pages('echo=0&depth=1&child_of='.$x);
+                echo '<li id="kwick_'.$i.'">' . $menuitem[$i] .'<ul class="submenu">'. $submenu .'</ul></li>';
             }
           ?>
           </ul>
