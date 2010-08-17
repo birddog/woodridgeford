@@ -426,12 +426,6 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 .showcase-slider .header ul.showcaseslider-tabs li a.current:hover{background:url('/wp-content/uploads/2010/03/tab-inverted-grey.png')!important;color:#fff!important;text-decoration:underline;}
 .showcase-slider .scrollable{position:relative;overflow:hidden;height:90px;padding:0;}
 .showcase-slider .scrollable .items{width:30000em;position:absolute;text-align:center;}
-/*
-This affected the .trims a  - Chad P
-.showcase-slider .scrollable .items a{float:left;text-align:center;margin:2px 0 0 40px;width:143px;text-decoration:none;color:#555;font-size:8pt;}
-.showcase-slider .scrollable .items a .image{display:block;height:68px;overflow:hidden;}
-.showcase-slider .scrollable .items a img{display:block;margin:0 auto;}
-.showcase-slider .scrollable .items a:hover{background:#e4e4e4;}*/
 .showcase-slider .scrollable .item{position:relative!important;}
 .showcase-slider .scrollable a.prev,
 .showcase-slider .scrollable a.next{position:relative;z-index:50;width:38px;height:90px!important;cursor:pointer;margin-top:0!Important;}
