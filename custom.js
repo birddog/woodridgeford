@@ -217,7 +217,7 @@ jQuery(function($) {
 
 	/***
    * New Vehicle flyout slider
-  */
+
 	if ($('.page-item-151').length) {
 		if (!$('#showcase-flyout').length && $('.dt-showcase').length) {
 			$('#slideout .dt-showcase').clone().insertAfter('#submenu').attr('id', 'showcase-flyout').attr('class', 'showcase-flyout').center().css({
@@ -254,7 +254,7 @@ jQuery(function($) {
 			$('#showcase-flyout').hide();
 		});
 	}
-
+  */
 	//========================
 	// new-used-vehicles/new-vehicles/sync/
 	// - Chad M.17.10
