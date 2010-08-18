@@ -51,7 +51,7 @@ body{font:normal 11px helvetica; padding:0; margin:0 auto;}
 /*Menu Highlight*/
 .nav li a:hover{color:black;}
 /*Menu Dropdown Position*/
-.nav li ul{top:30px;z-index:8888;position:absolute;left:-999em;height:auto;width:180px;margin:0px;padding:2px 0px 0px;}
+.nav li ul{z-index:8888;position:absolute;left:-999em;}
 .nav li ul li ul{position:static;}
 /*Menu Dropdown Background*/
 .nav li ul li.page_item{background:black;margin:0px !important;}

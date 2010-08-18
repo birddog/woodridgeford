@@ -100,6 +100,7 @@ body.page-parent #home-content{}
 .sub-menu > li a {
 	background:none 0 0 #222;
 	font-size:11px;
+	padding:6px 0 0 7px;
 }
 
 /**************************************
