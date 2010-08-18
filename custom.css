@@ -72,7 +72,7 @@ body.page-parent #home-content{}
 	background-image:url(/wp-content/uploads/2010/03/menubar-nav-bg.png);
 	padding:6px 0 0 7px;
 	height:28px;
-	line-height:28px;
+	line-height:20px;
 	font-size:12px;
 }
 #menubar #menu-navigation li a:hover {color:#59f;}
