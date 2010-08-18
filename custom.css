@@ -108,10 +108,10 @@ body.page-parent #home-content{}
 #menubar #menu-navigation li .sub-menu > li a {
 	background:none 0 0 #222;
 	font-size:11px;
-	padding:6px 0 0 7px;
+	padding:3px 0 3px 7px;
 }
 #menubar #menu-navigation li .sub-menu > li a:hover {
-	background-color:#59f;
+	background-color:#1D4A9F;
 	color:#fff;
 }
 
