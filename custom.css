@@ -72,10 +72,10 @@ body.page-parent #home-content{}
 	background-image:url(/wp-content/uploads/2010/03/menubar-nav-bg.png);
 	padding:6px 0 0 7px;
 	height:28px;
+	line-height:28px;
 	font-size:12px;
 }
-#menubar #menu-navigation li a:hover,
-#menubar #menu-navigation li.current-menu-item a{color:#59f;}
+#menubar #menu-navigation li a:hover {color:#59f;}
 #menubar #menu-item-2977 a{background-position:left 0;width:65px;padding-left:11px;}
 #menubar #menu-item-2991 a{background-position:-76px 0;width:99px;}
 #menubar #menu-item-2992 a{background-position:-182px 0;width:144px;}
