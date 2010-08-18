@@ -67,7 +67,7 @@ body.page-parent #home-content{}
 **************************************/
 #menubar{width:960px;height:34px;padding-left:0;position:relative;z-index:510;}
 #menubar #menu-navigation li{}
-#menubar #menu-navigation li a{
+#menubar #menu-navigation > li a{
 	display:block;
 	background-image:url(/wp-content/uploads/2010/03/menubar-nav-bg.png);
 	padding:6px 0 0 7px;
@@ -92,9 +92,9 @@ body.page-parent #home-content{}
 #menu-navigation li li a:hover,
 #menu-navigation li li a:active{margin:0;position:inherit;float:none;}
 /* Submenu */
-#sub-menu
+#sub-menu {width:200px;}
 #sub-menu li {}
-#sub-menu li a {background:none 0 0 #222;}
+#sub-menu > li a {background:none 0 0 #222;}
 
 /**************************************
 * Footer
