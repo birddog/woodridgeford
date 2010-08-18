@@ -8,13 +8,18 @@ include_once(DT_THEME_PATH.'options.php');
 # Setup Widget Zones
 if ( function_exists('register_sidebar') ) {
   register_sidebar(array('name' => 'header','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
+  register_sidebar(array('name' => 'menu-before','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
+  register_sidebar(array('name' => 'menu-after','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
+  register_sidebar(array('name' => 'submenu','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
+  register_sidebar(array('name' => 'top-banner-ad','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
+  register_sidebar(array('name' => 'bottom-banner-ad','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   register_sidebar(array('name' => 'sidebar','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   register_sidebar(array('name' => 'footer-left','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   register_sidebar(array('name' => 'footer-middle','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   register_sidebar(array('name' => 'footer-right','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   register_sidebar(array('name' => 'footer','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   register_sidebar(array('name' => 'breakout-footer','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
-  # Home widget area
+
   for($i=1; $i <= get_option('dt_number_of_widget_zones'); $i++) {
     register_sidebar(array('name' => 'home-' . $i,'before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   }
