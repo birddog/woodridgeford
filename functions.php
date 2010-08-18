@@ -8,6 +8,9 @@ include_once(DT_THEME_PATH.'options.php');
 # Setup Widget Zones
 if ( function_exists('register_sidebar') ) {
   register_sidebar(array('name' => 'header','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
+  register_sidebar(array('name' => 'menu-before','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
+  register_sidebar(array('name' => 'menu-after','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
+  register_sidebar(array('name' => 'submenu','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   register_sidebar(array('name' => 'top-banner-ad','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   register_sidebar(array('name' => 'bottom-banner-ad','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
   register_sidebar(array('name' => 'sidebar','before_widget' => '','after_widget' => '','before_title' => '','after_title' => ''));
@@ -34,7 +37,6 @@ function dt_header() {
     echo "<h2>".get_bloginfo('description')."</h2>";
   }
 }
-
 # Enable custom menu Support for WP3.x
 add_theme_support('menus');
 
