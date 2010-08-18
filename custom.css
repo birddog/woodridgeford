@@ -65,7 +65,7 @@ body.page-parent #home-content{}
 /**************************************
 * Menubar
 **************************************/
-#menubar{width:960px;height:34px;padding-left:0;position:relative;z-index:50;}
+#menubar{width:960px;height:34px;padding-left:0;position:relative;z-index:510;}
 #menubar #menu-navigation li{}
 #menubar #menu-navigation li a{
 	display:block;
