@@ -92,12 +92,12 @@ body.page-parent #home-content{}
 #menu-navigation li li a:hover,
 #menu-navigation li li a:active{margin:0;position:inherit;float:none;}
 /* Submenu */
-#sub-menu {
+.sub-menu {
 	width:200px;
 	background-color:#222;
 }
-#sub-menu > li {}
-#sub-menu > li a {
+.sub-menu > li {}
+.sub-menu > li a {
 	background:none 0 0 #222;
 	font-size:11px;
 }
