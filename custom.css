@@ -99,7 +99,10 @@ body.page-parent #home-content{}
 	-moz-border-radius-bottomleft:8px;
 	-webkit-border-bottom-left-radius:8px;
 	-moz-border-radius-bottomright:8px;
-	-webkit-border-bottom-right-radius:8px;	
+	-webkit-border-bottom-right-radius:8px;
+	border-left:1px solid #BABABA;
+	border-right:1px solid #BABABA;
+	border-bottom:1px solid #BABABA;	
 }
 #menubar #menu-navigation li .sub-menu > li {float:none;}
 #menubar #menu-navigation li .sub-menu > li a {
@@ -116,9 +119,6 @@ body.page-parent #home-content{}
 	-webkit-border-bottom-left-radius:8px;
 	-moz-border-radius-bottomright:8px;
 	-webkit-border-bottom-right-radius:8px;
-	border-left:1px solid #BABABA;
-	border-right:1px solid #BABABA;
-	border-bottom:1px solid #BABABA;
 }
 #footer-bottom a{
 	color:#555;
