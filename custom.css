@@ -631,20 +631,6 @@ ul#steps li{color:#CCCCCC;display:block;float:left;font-size:14px;font-weight:bo
 .clear{clear:both;height:0;}
 
 /**************************************
-* OTHER ?!??!#HR!@)#*
-**************************************/
-.emailform .header{display:none!important;}
-.emailform form{border:none!important;background:white!important;}
-.emailform form table td{border:none!important;background:white!important;}
-#div_contact{background-color:#F4F4F4;border:1px solid #999;padding-left:25px;padding-top:15px;width:893px;}
-#div_contact select{font-size:11px;color:#999;}
-#div_contact select option{padding:2px;color:#999;border:none;}
-.white td{color:#ffffff;}
-.contactTitle td:first-child{color:#1d4a9f;}
-td.emailRight{text-align:right !important;padding-right:5px;}
-.contactTitle{height:30px;}
-
-/**************************************
 * Staff pages
 **************************************/
 .emailform .header{display:none!important;}
@@ -734,7 +720,7 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#1d4a9f;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/2010/03/thumbnails-end.png) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/2010/03/thumbnails-begin.png) no-repeat scroll 0 0 transparent!important;}
-input.go-button {width:23px;height:21px;background: #222 url(/wp-content/uploads/GoButton.png) no-repeat top left;border:none;color:transparent;text-indent:-100px;}
+input.go-button {width:23px;height:21px;background: url(/wp-content/uploads/GoButton.png) no-repeat top left transparent;border:none;color:transparent;text-indent:-100px;}
 
 /**********************************************/
 /* Lightbox
