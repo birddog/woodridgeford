@@ -102,7 +102,11 @@ body.page-parent #home-content{}
 	-webkit-border-bottom-right-radius:8px;
 	border-left:1px solid #BABABA;
 	border-right:1px solid #BABABA;
-	border-bottom:1px solid #BABABA;	
+	border-bottom:1px solid #BABABA;
+	-moz-box-shadow: 3px 3px 3px #666;
+	-webkit-box-shadow: 3px 3px 3px #666;
+	box-shadow: 3px 3px 3px #666;
+	
 }
 #menubar #menu-navigation li .sub-menu > li {float:none;}
 #menubar #menu-navigation li .sub-menu > li a {
