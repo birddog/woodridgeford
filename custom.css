@@ -95,7 +95,7 @@ body.page-parent #home-content{}
 /* Submenu */
 #menubar #menu-navigation li .sub-menu {
 	background-color:#222;
-	padding-bottom:10px;
+	padding-bottom:5px;
 	-moz-border-radius-bottomleft:8px;
 	-webkit-border-bottom-left-radius:8px;
 	-moz-border-radius-bottomright:8px;
