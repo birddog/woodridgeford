@@ -366,12 +366,12 @@ body.page-parent #home-content{}
 .dt-showcase .multiselect .item:hover{background:#eee;}
 .dt-showcase .multiselect .item:active{background:#ccc;}
 .dt-showcase .options{font-weight:bold;color:#009;}
-.dt-showcase .options li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:999;font-weight:normal;}
+.dt-showcase .options li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:#999;font-weight:normal;}
 .dt-showcase .options li:before{content:'\2022 ';}
 .dt-showcase .equipment{font-weight:bold;color:#009;}
-.dt-showcase .equipment li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:999;font-weight:normal;}
+.dt-showcase .equipment li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:#999;font-weight:normal;}
 .dt-showcase .equipment li:before{content:'\2022 ';}
-.dt-showcase .photo-gallery-button{text-indent:-999px;margin-left:180px;margin-top:10px;color:transparent;width:85;height:24;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
+.dt-showcase .photo-gallery-button{text-indent:-999px;margin-left:180px;margin-top:10px;color:transparent;width:85px;height:24px;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-facebook{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-facebook.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-twitter{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-twitter.jpg) center center no-repeat;color:transparent!important;}
 .dt-showcase .detail .vehicle-info .opt-buttons a.button-test-drive{width:132px;height:39px;background:transparent url(/wp-content/uploads/btn-book-test-drive.jpg) center center no-repeat;color:transparent!important;}
@@ -482,10 +482,6 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 #showcase-flyout .showcase-pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
 #showcase-flyout .showcase-pane .items .vehicle{position:relative;float:left;width:163px;text-align:center;}
 
-/* trim hover */
-/*.dt-showcase .trims{position:absolute;left:0px;min-width:200px;border:1px solid #aaa;padding:10px;background:#eee;z-index:2;text-align:left;-webkit-border-radius:5px;-moz-border-radius:5px;opacity:.95;-moz-opacity:0.95;}
-.dt-showcase .trims a{text-decoration:none;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;padding-left:8px;color:#333;white-space:nowrap;}
-*/
 .dt-showcase .trims,
 .showcase-slider .trims,
 #showcase-flyout .trims{display:none;background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;z-index:400;}
@@ -595,7 +591,7 @@ input[type="checkbox"]{font-size:11px;background-color:#fff;border:1px solid #ca
 .preownedtestdrive textarea, .newtestdrive textarea,
 .contactus textarea {width:600px;}
 .partsRequest textarea, .contactFinance textarea, .contactFleet textarea { width:705px;}
-.collisionCenter textarea {360px;}
+.collisionCenter textarea {width:360px;}
 
 /* form validation */
 span.wpcf7-not-valid-tip{position:absolute!important;top:0!important;right:19px!important;background:none repeat scroll 0 0 #E25E4C!important;color:#fff;font-size:11px!important;padding:3px!important;z-index:100!important;width:137px!important;}
@@ -622,69 +618,6 @@ ul#steps li{color:#CCCCCC;display:block;float:left;font-size:14px;font-weight:bo
 .btnsubmit{background-color:#1d4a9f;color:#fff;display:block;float:left;font-size:12px;padding:5px;margin-top:5px;border:1px solid #ddd;-moz-border-radius:5px;-webkit-border-radius:5px;}
 #tradeEstimate .next:hover, #tradeEstimate .prev:hover ,
 .btnsubmit:hover,.btnsubmit:focus{background-color:#1d4a9f;}
-/*.wrap{float:left;}
-.form-item{margin:0 0 5px 10px;clear:both;}
-.form-item .description{font-size:9px;color:#999;}
-.form-item label,
-.form-block{display:block;color:#999;}
-.form-item br{display:none;}
-.form-block{display:block;margin:0 0 5px 10px;clear:both;}
-.form-block textarea{padding:5px 2px;}
-.form-submit{display:block;padding-left:80px;}
-.mmf-list-item-label{color:#999;}/
-#quick-contact-form{background-color:#F4F4F4;border:1px solid #DDDDDD;padding:5px;width:650px;margin:10px auto 0;}
-#quick-contact-form h2{margin-left:25px;padding:5px 0;color:#1d4a9f;font-size:11px;background-color:#f4f4f4;}
-#quick-contact-form .form-item label{float:left;width:40px;margin-right:5px;}
-#quick-contact-form .form-item input{float:left;}
-#contact-form{background-color:#F4F4F4;border:1px solid #DDDDDD;padding:5px;}
-#contact-form .form-item{float:left;clear:none;}
-#contact-form .form-block{margin-bottom:5px;}
-#contact-form .form-block label{display:block;float:left;width:60px;text-align:right;padding-right:10px;}
-#contact-form .form-block select,
-#contact-form .form-block input{float:left;}
-#contact-form .form-block select{margin-bottom:5px;}
-#partsRequest,
-#serviceAppointment,
-#tireRequest,
-#contactFinance{background-color:#F4F4F4;border:1px solid #DDDDDD;padding:10px;}
-#contactFinance{width:90%;margin:0 auto;}
-#contactFinance .form-item{float:left;clear:none;}
-
-/**************************************
-* Wizard Form
-**************************************/
-/*.step{border:1px solid #999;}
-ul#steps{list-style-type:none;clear:both;margin:0 0 10px;}
-ul#steps li{float:left;display:block;color:#ccc;font-size:16px;font-weight:bold;margin-right:10px;width:110px;}
-ul#steps li.current{color:#999;}
-ul#steps li span{font-size:11px;display:block;}
-#tradeEstimate{}
-#tradeEstimate br,
-#tradeEstimate .form-item br{display:none;}
-#tradeEstimate legend{display:block;background-color:#999;color:#fff;margin:0 0 10px;width:100%;font-size:14px;}
-#tradeEstimate legend span{padding:3px;}
-#tradeEstimate p{margin-left:10px;}
-#tradeEstimate p#step-0commands,
-#tradeEstimate p#step-1commands,
-#tradeEstimate p#step-2commands,
-#tradeEstimate p#step-3commands,
-#tradeEstimate p#step-4commands,
-#tradeEstimate p#step-5commands{margin-left:0!important;}
-#tradeEstimate .wrap .form-item{float:none;}
-#tradeEstimate .form-item{margin:0 10px 5px;float:left;clear:none;}
-#tradeEstimate #step-2 .mmf-list-item{float:left;width:130px;}
-#tradeEstimate #step-3 .form-item{width:130px;}
-#tradeEstimate #step-3 .form-item select{width:120px;}
-#tradeEstimate #step-4 .form-item{width:218px;}
-#tradeEstimate #step-5 .form-item{width:40%;}
-#tradeEstimate .next,
-#tradeEstimate .prev{display:block;padding:5px;background-color:#1d4a9f;color:#fff;font-size:12px;}
-#tradeEstimate a.next:hover,
-#tradeEstimate a.prev:hover{background-color:#1d4a9f;}
-#tradeEstimate .prev{float:left;}
-#tradeEstimate .next{float:right;}
-#tradeEstimate > p{margin-left:0!important;margin-top:10px;}
-#tradeEstimate > p > input{display:block;padding:5px;background-color:#1d4a9f;color:#fff;font-size:12px;cursor:pointer;}*/
 
 /**************************************
 * Flash App Pages
