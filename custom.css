@@ -69,7 +69,7 @@ body.page-parent #home-content{}
 #menubar #menu-navigation > li{}
 #menubar #menu-navigation > li > a{
 	display:block;
-	background-image:url(/wp-content/uploads/2010/03/menubar-nav-bg.png);
+	background-image:url(/wp-content/uploads/menubar-nav-bg.png);
 	padding:6px 0 0 7px;
 	height:28px;
 	line-height:20px;
