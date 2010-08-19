@@ -103,9 +103,9 @@ body.page-parent #home-content{}
 	border-left:1px solid #BABABA;
 	border-right:1px solid #BABABA;
 	border-bottom:1px solid #BABABA;
-	-moz-box-shadow: 3px 3px 2px #666;
-	-webkit-box-shadow: 3px 3px 2px #666;
-	box-shadow: 3px 3px 2px #666;
+	-moz-box-shadow: 2px 2px 3px #222;
+	-webkit-box-shadow: 2px 2px 3px #222;
+	box-shadow: 2px 2px 3px #222;
 	
 }
 #menubar #menu-navigation li .sub-menu > li {float:none;}
