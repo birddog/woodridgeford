@@ -10,7 +10,7 @@ jQuery(function($) {
 	
 	// hover state for navigation
 	$('#menubar #menu-navigation li > ul').bind('hover', function() {
-		$(this).parent().parent().find('a').css({
+		$(this).parent().find('a').css({
 			backgroundPosition: '-183px bottom'
 		})
 	})
