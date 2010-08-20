@@ -86,12 +86,12 @@ body.page-parent #home-content{}
 #menubar #menu-item-2996 > a{background-position:-182px 0;width:115px}
 #menubar #menu-item-2997 > a{background-position:-182px 0;width:125px;}
 #menubar #menu-item-2998 > a{background-position:right 0;width:110px;}
-/* menubar overrides */
+/* menubar overrides 
 #menu-navigation li a,
 #menu-navigation li a:visited .nav li li a,
 #menu-navigation li li a:visited,
 #menu-navigation li li a:hover,
-#menu-navigation li li a:active{margin:0;position:inherit;float:none;}
+#menu-navigation li li a:active{margin:0;position:inherit;float:none;}*/
 /* Submenu */
 #menubar #menu-navigation li .sub-menu {
 	background-color:#222;
