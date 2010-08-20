@@ -88,7 +88,7 @@ body.page-parent #home-content{}
 
 /* hover states */
 #menubar #menu-navigation li a:hover,
-#menubar li:hover li a:hover {color:#fff;background-position:-182px bottom;}
+#menubar li:hover {color:#fff;background-position:-182px bottom;}
 #menubar #menu-item-2977 > a:hover {background-position:left bottom;}
 #menubar #menu-item-2998 > a:hover {background-position:right bottom;}
 
