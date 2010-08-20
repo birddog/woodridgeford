@@ -76,8 +76,6 @@ body.page-parent #home-content{}
 	font-size:11px;
 	text-transform:uppercase;
 }
-#menubar #menu-navigation li a:hover,
-#menubar li li a:hover {color:#fff;background-position:-182px bottom;}
 #menubar #menu-item-2977 > a{background-position:left 0;width:65px;padding-left:11px;}
 #menubar #menu-item-2991 > a{background-position:-182px 0;width:99px;}
 #menubar #menu-item-2992 > a{background-position:-182px 0;width:140px;}
@@ -87,6 +85,11 @@ body.page-parent #home-content{}
 #menubar #menu-item-2996 > a{background-position:-182px 0;width:115px}
 #menubar #menu-item-2997 > a{background-position:-182px 0;width:125px;}
 #menubar #menu-item-2998 > a{background-position:right 0;width:110px;}
+/* hover states */
+#menubar #menu-navigation li a:hover,
+#menubar li li a:hover {color:#fff;background-position:-182px bottom;}
+#menubar #menu-item-2977 > a:hover {background-position:left bottom;}
+#menubar #menu-item-2998 > a{background-position:right bottom;}
 /* menubar overrides */
 #menu-navigation li a,
 #menu-navigation li a:visited .nav li li a,
