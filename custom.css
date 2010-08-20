@@ -89,7 +89,7 @@ body.page-parent #home-content{}
 #menubar #menu-navigation li a:hover,
 #menubar li li a:hover {color:#fff;background-position:-182px bottom;}
 #menubar #menu-item-2977 > a:hover {background-position:left bottom;}
-#menubar #menu-item-2998 > a{background-position:right bottom;}
+#menubar #menu-item-2998 > a:hover {background-position:right bottom;}
 /* menubar overrides */
 #menu-navigation li a,
 #menu-navigation li a:visited .nav li li a,
