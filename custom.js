@@ -9,11 +9,9 @@ jQuery(function($) {
 	};
 	
 	// hover state for navigation
-	$('#menu-navigation > li > a').add('#menu-navigation > li li').bind('hover', function() {
-		$(this).css({
-			backgroundPosition: '(-183px bottom)'
-		});
-	});
+	//$('#menu-navigation > li > a').bind('hover', function() {
+	//	$(this).parent().addClass('active');
+	//});
 
 	/* Setup vars */
 	var newDivs = Array();
