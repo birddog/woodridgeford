@@ -7,6 +7,13 @@ jQuery(function($) {
 		console.log("%s: %o", msg, this);
 		return this;
 	};
+	
+	// hover state for navigation
+	$('#menubar #menu-navigation li > ul').bind('hover', function() {
+		$(this).parent().parent().find('a').css({
+			backgroundPosition: '-183px bottom'
+		})
+	})
 
 	/* Setup vars */
 	var newDivs = Array();
