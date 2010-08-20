@@ -9,11 +9,11 @@ jQuery(function($) {
 	};
 	
 	// hover state for navigation
-	$('#menubar #menu-navigation li > ul').bind('hover', function() {
+	$('#menu-navigation li ul').bind('hover', function() {
 		$(this).parent().find('a').css({
-			backgroundPosition: '-183px bottom'
-		})
-	})
+			backgroundPosition: '(-183px bottom)'
+		});
+	});
 
 	/* Setup vars */
 	var newDivs = Array();
