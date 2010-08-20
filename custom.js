@@ -9,8 +9,8 @@ jQuery(function($) {
 	};
 	
 	// hover state for navigation
-	$('#menu-navigation li ul').bind('hover', function() {
-		$(this).parent().find('a').css({
+	$('#menu-navigation li a').add('#menu-navigation li li').bind('hover', function() {
+		$('#menu-navigation li a').css({
 			backgroundPosition: '(-183px bottom)'
 		});
 	});
