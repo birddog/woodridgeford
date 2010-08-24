@@ -469,7 +469,7 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 	font-size:12px;
 	line-height:22px;
 	height:22px;
-	padding:0 15px;
+	padding:0 15px!important;
 	position:relative;
 }
 .showcase-slider .header ul.showcaseslider-tabs a:hover,
