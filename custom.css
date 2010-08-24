@@ -340,7 +340,7 @@ body.page-parent #home-content{}
 .slideshowwidget{
 	width:960px;
 	height:350px!important;
-	margin:5px 0 0 -10px;
+	margin:4px 0 0 -10px;
 	background:#fff;
 	position:relative;
 	z-index:500;
