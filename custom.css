@@ -457,7 +457,7 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 	background-image:url("/wp-content/uploads/showcase-slider-bg.png");
 	background-repeat:no-repeat;
 	height:120px;
-	margin:0 -10px;
+	margin:5px -10px 0;
 }
 .showcase-slider .showcaseslider-tabs{display:none!important;border:none;height:inherit;line-height:16px;position:relative;top:-2px;list-style:none;float:right;margin:0;padding:0;}
 .showcase-slider .showcaseslider-tabs li{border:none;margin:0 5px!important;text-align:center;list-style:none;display:inline-block;margin:0;padding:0;}
