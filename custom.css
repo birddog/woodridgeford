@@ -453,7 +453,12 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 /**************************************
 * Widgets showcase slider
 **************************************/
-.showcase-slider{border:solid 1px #999;background:white;height:114px!important;margin:3px -10px 2px!important;overflow:hidden;-webkit-border-radius:5px;-moz-border-radius:5px;}
+.showcase-slider{
+	background-image:url("/wp-content/uploads/showcase-slider-bg.png");
+	background-repeat:no-repeat;
+	height:120px;
+	margin:0 -10px;
+}
 .showcase-slider .showcaseslider-tabs{display:none!important;border:none;height:inherit;line-height:16px;position:relative;top:-2px;list-style:none;float:right;margin:0;padding:0;}
 .showcase-slider .showcaseslider-tabs li{border:none;margin:0 5px!important;text-align:center;list-style:none;display:inline-block;margin:0;padding:0;}
 .showcase-slider .showcaseslider-tabs li a{display:block;background-image:url('/wp-content/uploads/2010/03/tab-inverted.png');background-repeat:no-repeat;height:19px;width:75px;color:#fff;border:none;font-size:12px;}
