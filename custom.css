@@ -83,8 +83,8 @@ body.page-parent #home-content{}
 #menubar #menu-item-2994 > a{background-position:-182px 0;width:85px;}
 #menubar #menu-item-2995 > a{background-position:-182px 0;width:77px}
 #menubar #menu-item-2996 > a{background-position:-182px 0;width:115px}
-#menubar #menu-item-2997 > a{background-position:-182px 0;width:125px;}
-#menubar #menu-item-2998 > a{background-position:right 0;width:110px;}
+#menubar #menu-item-2997 > a{background-position:-182px 0;width:124px;}
+#menubar #menu-item-2998 > a{background-position:right 0;width:1109px;}
 
 /* hover states */
 #menubar #menu-navigation > li > a:hover {color:#fff;background-position:-182px bottom;}
@@ -113,6 +113,7 @@ body.page-parent #home-content{}
 	box-shadow: 2px 2px 3px #222;
 	
 }
+#menubar #menu-navigation li.menu-item-2998 .sub-menu {width:109px;}
 #menubar #menu-navigation li .sub-menu > li {float:none;}
 #menubar #menu-navigation li .sub-menu > li a {
 	background:none 0 0 #222;
