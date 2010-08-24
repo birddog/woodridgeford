@@ -119,7 +119,7 @@ jQuery(function($) {
 					$(this).stop().css('top', cPos).animate({
 						opacity: 1.0,
 						top: cPos - 70,
-						height: '230px'
+						height: '210px'
 					},
 					"fast");
 				},
