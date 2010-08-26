@@ -496,9 +496,9 @@ body.page-parent #home-content{}
 }
 .vhover .vehicle .trims {
 	display:block!important;
-	position:relative;
+	position:relative!important;
 	margin:10px 0 10px 20px!important;
-	font-size:inherit;
+	font-size:inherit!important;
 	color:#1D4A9F!important;
 	list-style-type:none;
 }
