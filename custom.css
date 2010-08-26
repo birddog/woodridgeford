@@ -506,7 +506,11 @@ body.page-parent #home-content{}
 	color:#1D4A9F!important;
 	list-style-type:none;
 }
-.vhover .vehicle .trims a {padding-left:10px!important; background:url(/wp-content/uploads/red_arrow_scroller.png) no-repeat left 3px transparent!important;}
+.vhover .vehicle .trims a {
+	padding-left:10px!important;
+	font-size:11px;
+	background:url(/wp-content/uploads/red_arrow_scroller.png) no-repeat left 3px transparent!important;
+}
 #page-43 .vhover .vehicle .trims a {display:block;}
 .vhover .actions {
 	width:138px;
