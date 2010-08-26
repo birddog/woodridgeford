@@ -322,6 +322,7 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 }
 #slideout-showcase .vhover {}
 #slideout-showcase .vhover .mid{margin-top:10px;}
+#slideout-showcase .vhover .image {margin:0 0 0 10px;}
 
 /******************************
 /*	New Vehicle showroom hover
