@@ -1,221 +1,151 @@
 /**************************************
 * BASIC CSS Woodridge Ford
 **************************************/
-html{overflow-y:scroll;}
-/* adds scrollbar and prevents jumping of content */
-body{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;font-size:11px;line-height:1.25;background-image:url(/wp-content/uploads/2010/03/bgWDR1.jpg);}
-body.page{padding:0;}
-a,
-a:active{color:#1d4a9f;outline:0;text-decoration:none;}
-a:hover,
-a:focus{color:#1d4a9f;outline:0;}
-p, .text, td,
-.textgridwidget{font-size:11px;font-weight:normal;text-align:left;color:#999;}
-p{margin:0 0 0.5em;}
-h1,h2,h3,h4,h5{color:#999;font-weight:bold;margin-bottom:0.75em;}
-h1{font-size:18px;}
-h2{font-size:16px;color:#1d4a9f;}
-h3{font-size:14px;}
-h4{font-size:13px;color:#222;}
-h5{font-size:14px!important;color:#1d4a9f; font-weight:bold;margin-bottom:0.5em;}
-ul,
-ol{color:#999;}
-li{}
-td li{text-align:left;}
-hr{border:0;color:#999;background-color:#999;height:1px;width:100%;text-align:left;}
-.top{vertical-align:text-top;}
+html{overflow-y:scroll}
 
-/* img loader icon for slow loading images */
+body{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif; font-size:11px; line-height:1.25; background-image:url(/wp-content/uploads/2010/03/bgWDR1.jpg)}
+body.page{padding:0}
+a, 
+a:active{color:#1d4a9f; outline:0; text-decoration:none}
+a:hover, 
+a:focus{color:#1d4a9f; outline:0}
+p, .text, td, 
+.textgridwidget{font-size:11px; font-weight:normal; text-align:left; color:#999}
+p{margin:0 0 0.5em}
+h1, h2, h3, h4, h5{color:#999; font-weight:bold; margin-bottom:0.75em}
+h1{font-size:18px}
+h2{font-size:16px; color:#1d4a9f}
+h3{font-size:14px}
+h4{font-size:13px; color:#222}
+h5{font-size:14px!important; color:#1d4a9f; font-weight:bold; margin-bottom:0.5em}
+ul, 
+ol{color:#999}
+li{}
+td li{text-align:left}
+hr{border:0; color:#999; background-color:#999; height:1px; width:100%; text-align:left}
+.top{vertical-align:text-top}
+
 img, 
-.slideshowwidget {background:url(/wp-content/uploads/ajax-loader1.gif) no-repeat scroll 50% 50% transparent!important;}
-#closeButton, .required {background:none!important;}
+.slideshowwidget{background:url(/wp-content/uploads/ajax-loader1.gif) no-repeat scroll 50% 50% transparent!important}
+#closeButton, .required{background:none!important}
+
 /**************************************
 * General Layout Regions
 **************************************/
-#website{background-color:#fff;}
-#website .page{padding:10px 0 0;}
-#header{padding:0;}
-#header #header-zones{
-	background-image:url(/wp-content/uploads/header-bg.png);
-	background-repeat:no-repeat;
-	border-bottom:1px solid #999;
-	height:80px;
-}
-#header a:hover{text-decoration:none!important;}
-#header #logo{font-weight:bold;font-size:12px;}
-#header #logo img{vertical-align:middle;}
-#header #address{color:#999;text-align:right;padding-top:5px;}
-#header #phone-numbers{color:#999;text-align:right;padding-top:5px;}
-#header #phone-numbers table{width:100%;}
-#header #phone-numbers table td{text-align:right;}
-#header #phone-numbers strong{font:bold 11pt;color:#1f64d9;}
-#site-content{margin:0;}
+#website{background-color:#fff}
+#website .page{padding:10px 0 0}
+#header{padding:0}
+#header #header-zones{background-image:url(/wp-content/uploads/header-bg.png); background-repeat:no-repeat; border-bottom:1px solid #999; height:80px}
+#header a:hover{text-decoration:none!important}
+#header #logo{font-weight:bold; font-size:12px}
+#header #logo img{vertical-align:middle}
+#header #address{color:#999; text-align:right; padding-top:5px}
+#header #phone-numbers{color:#999; text-align:right; padding-top:5px}
+#header #phone-numbers table{width:100%}
+#header #phone-numbers table td{text-align:right}
+#header #phone-numbers strong{font:bold 11pt; color:#1f64d9}
+#site-content{margin:0}
 body.page-parent #home-content{}
-#home-1.widget-zones{margin:0;}
-#contact-us-page{padding:50px;}
-.entry{padding:0 0 10px;border-bottom:1px solid #999;margin-bottom:5px;}
-#sidebar div{margin: 8px 5px 0px;}
-#footer{padding:5px 0 0;margin:0 0 10px;background:#DCDBE0 url(/wp-content/uploads/2010/03/footer-background.jpg) repeat-x;height:auto;}
-#footer #quick-find-button{font-weight:bold;}
-#footer #logos{display:none;}
-#footer .nav{display:none;}
+#home-1.widget-zones{margin:0}
+#contact-us-page{padding:50px}
+.entry{padding:0 0 10px; border-bottom:1px solid #999; margin-bottom:5px}
+#sidebar div{margin:8px 5px 0px}
+#footer{padding:5px 0 0; margin:0 0 10px; background:#DCDBE0 url(/wp-content/uploads/2010/03/footer-background.jpg) repeat-x; height:auto}
+#footer #quick-find-button{font-weight:bold}
+#footer #logos{display:none}
+#footer .nav{display:none}
 #breakout-footer{}
-#breakout-footer .grid_12{display:block;float:none;width:100%;margin:0;}
+#breakout-footer .grid_12{display:block; float:none; width:100%; margin:0}
 
 /**************************************
 * Menubar
 **************************************/
-#menubar{width:960px;height:34px;padding-left:0;position:relative;z-index:510;}
-#menubar #menu-navigation > li{}
-#menubar #menu-navigation > li > a{
-	display:block;
-	background-image:url(/wp-content/uploads/menubar-nav-bg.png);
-	padding:6px 0 0 7px;
-	height:28px;
-	line-height:20px;
-	font-size:11px;
-	text-transform:uppercase;
-}
-#menubar #menu-item-2977 > a{background-position:left 0;width:65px;padding-left:11px;}
-#menubar #menu-item-2991 > a{background-position:-182px 0;width:99px;}
-#menubar #menu-item-2992 > a{background-position:-182px 0;width:140px;}
-#menubar #menu-item-2993 > a{background-position:-182px 0;width:81px}
-#menubar #menu-item-2994 > a{background-position:-182px 0;width:85px;}
-#menubar #menu-item-2995 > a{background-position:-182px 0;width:77px}
-#menubar #menu-item-2996 > a{background-position:-182px 0;width:115px}
-#menubar #menu-item-2997 > a{background-position:-182px 0;width:124px;}
-#menubar #menu-item-2998 > a{background-position:right 0;width:109px;}
+#menubar{width:960px; height:34px; padding-left:0; position:relative; z-index:510}
+#menubar #menu-navigation >li{}
+#menubar #menu-navigation >li >a{display:block; background-image:url(/wp-content/uploads/menubar-nav-bg.png); padding:6px 0 0 7px; height:28px; line-height:20px; font-size:11px; text-transform:uppercase}
+#menubar #menu-item-2977 >a{background-position:left 0; width:65px; padding-left:11px}
+#menubar #menu-item-2991 >a{background-position:-182px 0; width:99px}
+#menubar #menu-item-2992 >a{background-position:-182px 0; width:140px}
+#menubar #menu-item-2993 >a{background-position:-182px 0; width:81px}
+#menubar #menu-item-2994 >a{background-position:-182px 0; width:85px}
+#menubar #menu-item-2995 >a{background-position:-182px 0; width:77px}
+#menubar #menu-item-2996 >a{background-position:-182px 0; width:115px}
+#menubar #menu-item-2997 >a{background-position:-182px 0; width:125px}
+#menubar #menu-item-2998 >a{background-position:right 0; width:109px}
 
-/* hover states */
-#menubar #menu-navigation > li > a:hover {color:#fff;background-position:-182px bottom;}
-#menubar #menu-item-2977 > a:hover {background-position:left bottom!important;}
-#menubar #menu-item-2998 > a:hover {background-position:right bottom!important;}
+#menubar #menu-navigation >li >a:hover{color:#fff; background-position:-182px bottom}
+#menubar #menu-item-2977 >a:hover{background-position:left bottom!important}
+#menubar #menu-item-2998 >a:hover{background-position:right bottom!important}
 
-/* menubar overrides */
-#menu-navigation li a,
-#menu-navigation li a:visited .nav li li a,
-#menu-navigation li li a:visited,
-#menu-navigation li li a:hover,
-#menu-navigation li li a:active{margin:0;position:inherit;float:none;}
-/* Submenu */
-#menubar #menu-navigation li .sub-menu {
-	background-color:#222;
-	padding-bottom:5px;
-	-moz-border-radius-bottomleft:8px;
-	-webkit-border-bottom-left-radius:8px;
-	-moz-border-radius-bottomright:8px;
-	-webkit-border-bottom-right-radius:8px;
-	border-left:1px solid #BABABA;
-	border-right:1px solid #BABABA;
-	border-bottom:1px solid #BABABA;
-	-moz-box-shadow: 2px 2px 3px #222;
-	-webkit-box-shadow: 2px 2px 3px #222;
-	box-shadow: 2px 2px 3px #222;
-	
-}
-#menubar #menu-navigation li.menu-item-2998 .sub-menu {width:109px;}
-#menubar #menu-navigation li.menu-item-2998 .sub-menu a {width:auto;}
-#menubar #menu-navigation li .sub-menu > li {float:none;}
-#menubar #menu-navigation li .sub-menu > li a {
-	background:none 0 0 #222;
-	font-size:11px;
-	padding:3px 0 3px 7px;
-}
-#menubar #menu-navigation li .sub-menu > li a:hover {
-	background-color:#1D4A9F;
-	color:#fff;
-}
+#menu-navigation li a, 
+#menu-navigation li a:visited .nav li li a, 
+#menu-navigation li li a:visited, 
+#menu-navigation li li a:hover, 
+#menu-navigation li li a:active{margin:0; position:inherit; float:none}
+
+#menubar #menu-navigation li .sub-menu{background-color:#222; padding-bottom:5px; -moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-radius:8px; -moz-border-radius-bottomright:8px; -webkit-border-bottom-right-radius:8px; border-left:1px solid #BABABA; border-right:1px solid #BABABA; border-bottom:1px solid #BABABA; -moz-box-shadow:2px 2px 3px #222; -webkit-box-shadow:2px 2px 3px #222; box-shadow:2px 2px 3px #222}
+#menubar #menu-navigation li.menu-item-2998 .sub-menu{width:109px}
+#menubar #menu-navigation li.menu-item-2998 .sub-menu a{width:auto}
+#menubar #menu-navigation li .sub-menu >li{float:none}
+#menubar #menu-navigation li .sub-menu >li a{background:none 0 0 #222; font-size:11px; padding:3px 0 3px 7px}
+#menubar #menu-navigation li .sub-menu >li a:hover{background-color:#1D4A9F; color:#fff}
 
 /**************************************
 * Footer
 **************************************/
-#breakout-footer {
-	-moz-border-radius-bottomleft:8px;
-	-webkit-border-bottom-left-radius:8px;
-	-moz-border-radius-bottomright:8px;
-	-webkit-border-bottom-right-radius:8px;
-}
-#footer-bottom a{
-	color:#555;
-	font-weight:bold;
-}
-#footer-bottom a:hover{color:#1d4a9f;}
-#footer-bottom h5 a {
-	color:#1d4a9f;
-	font-size:14px;
-}
-#footer-bottom .footer-row {
-	background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff;	
-	height:177px;
-	border:1px solid #ccc;
-	overflow:hidden;
-}
-#footer-bottom .footer-row div {margin:0 0 0 10px;padding:10px 0 10px 10px;height:157px;border-left:1px solid #ccc;}
-#footer-bottom .footer-row div.alpha {border:none;}
-#footer-bottom .footer-row div.grid_3 {width:210px;}
-#footer-bottom .footer-row div .right {float:right;}
-#footer-bottom .footer-row div ul.last {
-	width:120px;
-}
-#footer-bottom .footer-row div.qm ul.last {
-	width:170px;
-}
-#footer-bottom ul {
-	float:left;
-	padding:0 0 0 1.5em;
-	list-style-image:url(/wp-content/uploads/quick-find-bullet.png)!important;	
-}
-#footer-bottom ul li {
-	color:#555!important;	
-	font-weight:bold;
-	font-size:11px;
-	line-height:15px;
-}
-#footer-bottom ul li.special {
-	border-top:1px solid #ccc;	
-}
-#footer-bottom #dealership-links {
-		text-align:center;
-		padding:15px 0;
-		font-size:12px;
-}
+breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-radius:8px; -moz-border-radius-bottomright:8px; -webkit-border-bottom-right-radius:8px}
+#footer-bottom a{color:#555; font-weight:bold}
+#footer-bottom a:hover{color:#1d4a9f}
+#footer-bottom h5 a{color:#1d4a9f; font-size:14px}
+#footer-bottom .footer-row{background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff; height:177px; border:1px solid #ccc; overflow:hidden}
+#footer-bottom .footer-row div{margin:0 0 0 10px; padding:10px 0 10px 10px; height:157px; border-left:1px solid #ccc}
+#footer-bottom .footer-row div.alpha{border:none}
+#footer-bottom .footer-row div.grid_3{width:210px}
+#footer-bottom .footer-row div .right{float:right}
+#footer-bottom .footer-row div ul.last{width:120px}
+#footer-bottom .footer-row div.qm ul.last{width:170px}
+#footer-bottom ul{float:left; padding:0 0 0 1.5em; list-style-image:url(/wp-content/uploads/quick-find-bullet.png)!important}
+#footer-bottom ul li{color:#555!important; font-weight:bold; font-size:11px; line-height:15px}
+#footer-bottom ul li.special{border-top:1px solid #ccc}
+#footer-bottom #dealership-links{text-align:center; padding:15px 0; font-size:12px}
+
 
 /**************************************
 * SYNC PAGE
 **************************************/
-#sync-wrap{background:url(/wp-content/uploads/2010/03/sync-landing.jpg) scroll -120px -130px no-repeat transparent;height:405px;position:relative;}
-#sync-body{position:relative;}
-#sync-body h1{font-weight:bold;margin:19px 0 0 10px;}
-#sync-body h5{margin:5px 0 0 10px;color:#222;font-size:11px}
-#sync-body div.video{margin:30px 0 10px 20px;width:221px;overflow:hidden;}
-#sync-body div.video a{background-image:url(/wp-content/uploads/2010/03/innovation-button-background.png);background-position:top left;background-repeat:no-repeat;height:31px;text-decoration:none;display:block;position:relative;}
-#sync-body div.video a:hover{background-position:left -32px;}
-#sync-body div.video a span{position:absolute;top:8px;left:40px;width:180px;color:#fff;font-weight:bold;font-size:11px;text-align:left;}
-#sync-body div.videoplayer{display:none;padding:1em;position:absolute;left:20px;top:60px;background-color:#fff;border:1px solid #eee;-moz-border-radius:5px;}
-#sync-body div.videoplayer a.vidClose,
-#sync-about .close,
-#sync-availability .close{position:absolute;right:-10px;top:-10px;cursor:pointer;cursor:hand;display:block;height:25px;width:25px;overflow:hidden;background-image:url(/wp-content/uploads/2010/03/vidClose.png);outline:0;z-index:100;}
-#sync-body div.videoplayer a.vidClose span,
-#sync-about .close span,
-#sync-availability .close span{display:none;}
-#sync-sidebar{background:transparent url(/wp-content/uploads/2010/03/innovation-landing-nav-bg.png) no-repeat scroll 60px 20px;height:341px;}
-#sync-sidebar h2{margin:30px 10px 5px 70px;color:#222;font-size:12px;font-weight:bold;letter-spacing:0.29px;margin-bottom:5px;position:relative;word-spacing:0;}
+#sync-wrap{background:url(/wp-content/uploads/2010/03/sync-landing.jpg) scroll -120px -130px no-repeat transparent; height:405px; position:relative}
+#sync-body{position:relative}
+#sync-body h1{font-weight:bold; margin:19px 0 0 10px}
+#sync-body h5{margin:5px 0 0 10px; color:#222; font-size:11px}
+#sync-body div.video{margin:30px 0 10px 20px; width:221px; overflow:hidden}
+#sync-body div.video a{background-image:url(/wp-content/uploads/2010/03/innovation-button-background.png); background-position:top left; background-repeat:no-repeat; height:31px; text-decoration:none; display:block; position:relative}
+#sync-body div.video a:hover{background-position:left -32px}
+#sync-body div.video a span{position:absolute; top:8px; left:40px; width:180px; color:#fff; font-weight:bold; font-size:11px; text-align:left}
+#sync-body div.videoplayer{display:none; padding:1em; position:absolute; left:20px; top:60px; background-color:#fff; border:1px solid #eee; -moz-border-radius:5px}
+#sync-body div.videoplayer a.vidClose, 
+#sync-about .close, 
+#sync-availability .close{position:absolute; right:-10px; top:-10px; cursor:pointer; cursor:hand; display:block; height:25px; width:25px; overflow:hidden; background-image:url(/wp-content/uploads/2010/03/vidClose.png); outline:0; z-index:100}
+#sync-body div.videoplayer a.vidClose span, 
+#sync-about .close span, 
+#sync-availability .close span{display:none}
+#sync-sidebar{background:transparent url(/wp-content/uploads/2010/03/innovation-landing-nav-bg.png) no-repeat scroll 60px 20px; height:341px}
+#sync-sidebar h2{margin:30px 10px 5px 70px; color:#222; font-size:12px; font-weight:bold; letter-spacing:0.29px; margin-bottom:5px; position:relative; word-spacing:0}
 #sync-sidebar h2.owners{margin:30px 10px 5px 70px}
-#sync-sidebar ul{width:180px;margin:0 0 0 70px;list-style-type:none;}
-#sync-sidebar ul li{background:url(/wp-content/uploads/2010/03/blue-arrow-link.gif) scroll 5px 5px no-repeat transparent;padding-left:15px;margin-bottom:0.5em;}
-#sync-sidebar ul li a{font-size:11px;}
-#sync-sidebar p{margin:0 0 0.5em 70px;width:180px;text-align:left;font-size:10px;}
+#sync-sidebar ul{width:180px; margin:0 0 0 70px; list-style-type:none}
+#sync-sidebar ul li{background:url(/wp-content/uploads/2010/03/blue-arrow-link.gif) scroll 5px 5px no-repeat transparent; padding-left:15px; margin-bottom:0.5em}
+#sync-sidebar ul li a{font-size:11px}
+#sync-sidebar p{margin:0 0 0.5em 70px; width:180px; text-align:left; font-size:10px}
 #sync-sidebar ul.actions{}
-#sync-sidebar ul.actions:after{clear:both;height:1%;overflow:hidden;}
-#sync-sidebar ul.actions li{float:left;margin-right:5px;}
-#sync-nav{position:absolute;top:-10px;left:290px;width:400px;background-color:#fff;padding:3px;text-align:center;-moz-border-radius:5px;z-index:520;}
-#sync-nav a{display:inline;color:#222;font-weight:bold;font-size:13px;padding:0.5em;}
-#sync-nav-content h2,#sync-nav-content h3{font-weight:bold;}
-#sync-nav-content #sync-about,
-#sync-nav-content #sync-availability{display:none;position:absolute;left:20px;top:60px;width:480px;height:300px;padding:1em;background-color:#fff;border:1px solid #eee;z-index:530;-moz-border-radius:5px;}
-#sync-nav-content #sync-availability #sync-availability-ford,
-#sync-nav-content #sync-availability #sync-availability-lincoln,
-#sync-nav-content #sync-availability #sync-availability-mercury{float:left;margin-right:2em;}
+#sync-sidebar ul.actions:after{clear:both; height:1%; overflow:hidden}
+#sync-sidebar ul.actions li{float:left; margin-right:5px}
+#sync-nav{position:absolute; top:-10px; left:290px; width:400px; background-color:#fff; padding:3px; text-align:center; -moz-border-radius:5px; z-index:520}
+#sync-nav a{display:inline; color:#222; font-weight:bold; font-size:13px; padding:0.5em}
+#sync-nav-content h2, #sync-nav-content h3{font-weight:bold}
+#sync-nav-content #sync-about, 
+#sync-nav-content #sync-availability{display:none; position:absolute; left:20px; top:60px; width:480px; height:300px; padding:1em; background-color:#fff; border:1px solid #eee; z-index:530; -moz-border-radius:5px}
+#sync-nav-content #sync-availability #sync-availability-ford, 
+#sync-nav-content #sync-availability #sync-availability-lincoln, 
+#sync-nav-content #sync-availability #sync-availability-mercury{float:left; margin-right:2em}
 
 /**************************************
 * Fiesta 2011
@@ -232,110 +162,31 @@ body.page-parent #home-content{}
 /**************************************
 * Explorer 2011
 **************************************/
-#explorer2011 {
-	font-size:11px;
-	background-color:#fff;
-}
-#explorer2011 h1,
-#explorer2011 .tagline,
-#explorer2011 .launch {
-	margin:0
-}
-#explorer2011 .launch {margin-bottom:10px;}
-#explorer2011 .nav {
-	list-style:none;
-	margin:0;
-	width:170px;
-	float:left;
-}
-#explorer2011 .nav > li {
-	text-align:right;
-	float:none!important;
-	-moz-border-radius-topleft:8px;
-	-webkit-border-top-left-radius:8px;		
-}
-#explorer2011 .nav li > a{
-	font-weight:bold;
-	margin:0;
-	padding:5px 5px 2px;
-	cursor:pointer;
-	color:#222;
-	font-size:12px;
-	text-decoration:none;
-	display:block;
-	outline:none;
-	border-bottom:1px solid #fff;
-}        
-#explorer2011 .nav li > .sub {
-	display:none;
-	list-style:none;
-	margin:0 0 5px 0;
-	padding:0 0 5px;
-	background-color:#1D4A9F;
-	position:relative;
-	left:auto;
-	top:auto;
-	width:170px;
-	z-index:0;
-	-moz-border-radius-bottomleft:8px;
-	-webkit-border-bottom-left-radius:8px;
-}
-#explorer2011 .nav li > .sub > li {
-	text-align:right!important;
-	float:none;
-	color:#fff;
-	padding:2px 10px;
-	cursor:pointer;
-}
-#explorer2011 .nav li > .sub > li:hover,
-#explorer2011 .nav li > .sub > li.active {
-	background-color:#9BD5EF;
-	color:#222;
-}
-#explorer2011 .nav > li.active {
-	background-color:#1D4A9F;	
-}
-#explorer2011 .nav > li.active a {
-	border-bottom:1px solid #9BD5EF;
-	color:#fff;
-}
-#explorer2011 #gallery {
-	float:left;
-	display:none;
-}
-#explorer2011 #gallery.active {
-	display:block;
-}
-#explorer2011 #gallery .main {
-	position:relative;
-	float:left;
-	width:380px;
-	margin:0 30px;
-}
-#explorer2011 #gallery .enlarge {
-	position:absolute;
-	right:0;
-	top:228px;
-	cursor:pointer;
-}
-#explorer2011 #gallery .enlarge:hover {
-	opacity:0.7;
-}
-#explorer2011 #gallery .thumbs {
-	float:left;
-	width:150px;
-}
-#explorer2011 #gallery .thumbs br {display:none;}
-#explorer2011 #gallery .thumbs img {
-	opacity:0.7;
-	cursor:pointer;
-	float:left;
-	margin:0 5px 5px 0;
-}
-#explorer2011 #gallery .thumbs img.active,
-#explorer2011 #gallery .thumbs img:hover {
-	opacity:1.0;
-}
+#explorer2011{font-size:11px; background-color:#fff}
+#explorer2011 h1, 
+#explorer2011 .tagline, 
+#explorer2011 .launch{margin:0}
+#explorer2011 .launch{margin-bottom:10px}
+#explorer2011 .nav{list-style:none; margin:0; width:170px; float:left}
+#explorer2011 .nav >li{text-align:right; float:none!important; -moz-border-radius-topleft:8px; -webkit-border-top-left-radius:8px}
+#explorer2011 .nav li >a{font-weight:bold; margin:0; padding:5px 5px 2px; cursor:pointer; color:#222; font-size:12px; text-decoration:none; display:block; outline:none; border-bottom:1px solid #fff} 
+#explorer2011 .nav li >.sub{display:none; list-style:none; margin:0 0 5px 0; padding:0 0 5px; background-color:#1D4A9F; position:relative; left:auto; top:auto; width:170px; z-index:0; -moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-radius:8px}
+#explorer2011 .nav li >.sub >li{text-align:right!important; float:none; color:#fff; padding:2px 10px; cursor:pointer}
+#explorer2011 .nav li >.sub >li:hover, 
+#explorer2011 .nav li >.sub >li.active{background-color:#9BD5EF; color:#222}
+#explorer2011 .nav >li.active{background-color:#1D4A9F}
+#explorer2011 .nav >li.active a{border-bottom:1px solid #9BD5EF; color:#fff}
+#explorer2011 #gallery{float:left; display:none}
+#explorer2011 #gallery.active{display:block}
+#explorer2011 #gallery .main{position:relative; float:left; width:380px; margin:0 30px}
+#explorer2011 #gallery .enlarge{position:absolute; right:0; top:228px; cursor:pointer}
+#explorer2011 #gallery .enlarge:hover{opacity:0.7}
+#explorer2011 #gallery .thumbs{float:left; width:150px}
+#explorer2011 #gallery .thumbs br{display:none}
+#explorer2011 #gallery .thumbs img{opacity:0.7; cursor:pointer; float:left; margin:0 5px 5px 0}
+#explorer2011 #gallery .thumbs img.active, 
+#explorer2011 #gallery .thumbs img:hover{opacity:1.0}
+
 /**************************************
 * Slideshow Widget
 **************************************/
@@ -346,7 +197,7 @@ body.page-parent #home-content{}
 	background:#fff;
 	position:relative;
 	z-index:500;
-	overflow:hidden;}/* set all but first banner hidden */
+	overflow:hidden;}
 .slideshowwidget .slideshowwidget-slides{height:350px!important;}
 .slideshowwidget .slideshowwidget-prev,
 .slideshowwidget .slideshowwidget-next{position:absolute!important;width:44px!important;height:90px!important;color:transparent!important;background-color:transparent!important;background-image:url('/wp-content/uploads/2010/03/prev-next-sprite.png')!important;z-index:100!important;cursor:pointer!important;overflow:hidden!important;border:none!important;text-indent:-999em;}/* cont'd on line 291 */
@@ -463,10 +314,10 @@ body.page-parent #home-content{}
 /******************************
 /*	Slideout Vehicle hover
 /******************************/
-#showcase-slideout .dt-showcase {
+#slideout-showcase {
 	width:100%;
 }
-#showcase-slideout .dt-showcase .vehicle {
+#slideout-showcase .vehicle {
 	width:180px!important;
 }
 
