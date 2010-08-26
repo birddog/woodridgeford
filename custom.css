@@ -510,7 +510,8 @@ body.page-parent #home-content{}
 }
 
 .vhover .vehicle .trims a {
-	display:block;
+	display:block!important;
+	width:100%;
 	padding-left:10px!important;
 	background:url(/wp-content/uploads/quick-find-bullet.png) no-repeat left 3px transparent!important;
 	font-size:11px!important;
