@@ -624,23 +624,23 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 #showcase-flyout .showcase-pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
 #showcase-flyout .showcase-pane .items .vehicle{position:relative;float:left;width:163px;text-align:center;}
 
-.dt-showcase .trims,
-.showcase-slider .trims,
-#showcase-flyout .trims{display:none;background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;z-index:400;}
-.dt-showcase .trims a,
-.showcase-slider .trims a,
-#showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;white-space:nowrap;}
-.dt-showcase .trims br,
-.showcase-slider .trims br,
-#showcase-flyout .trims br,
-.showcase-slider .scrollable .item .trims br,
-#showcase-flyout .showcase-pane .vehicle .trims br{display:none;}
-.showcase-slider .scrollable .item .trims,
-#showcase-flyout .showcase-pane .vehicle .trims{background:none repeat scroll 0 0 rgb(220,220,220)!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:30px;text-align:left!important;padding:2px 10px!important;position:relative;top:-80px;padding:5px;min-width:200px!important;-webkit-border-radius:5px;}
-.showcase-slider .scrollable .item .trims a,
-#showcase-flyout .showcase-pane .vehicle .trims a{display:block;float:none!important;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;padding:0 5px 1px 10px!important;margin:0!important;text-align:left!important;font-size:10px!important;color:#1f64d9!important;white-space:nowrap;}
-.showcase-slider .scrollable .item .trims a:hover{color:#1f64d9!important;-moz-border-radius:0!important;-webkit-border-radius:0!important;text-decoration:underline;background-color:transparent;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;}
-#showcase-flyout .showcase-pane .items .vehicle .trims{position:absolute;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:190;text-align:left;min-width:200px!important;}
+/*.dt-showcase .trims,*/
+/*.showcase-slider .trims,*/
+/*#showcase-flyout .trims{display:none;background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;z-index:400;}*/
+/*.dt-showcase .trims a,*/
+/*.showcase-slider .trims a,*/
+/*#showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;white-space:nowrap;}*/
+/*.dt-showcase .trims br,*/
+/*.showcase-slider .trims br,*/
+/*#showcase-flyout .trims br,*/
+/*.showcase-slider .scrollable .item .trims br,*/
+/*#showcase-flyout .showcase-pane .vehicle .trims br{display:none;}*/
+/*.showcase-slider .scrollable .item .trims,*/
+/*#showcase-flyout .showcase-pane .vehicle .trims{background:none repeat scroll 0 0 rgb(220,220,220)!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:30px;text-align:left!important;padding:2px 10px!important;position:relative;top:-80px;padding:5px;min-width:200px!important;-webkit-border-radius:5px;}*/
+/*.showcase-slider .scrollable .item .trims a,*/
+/*#showcase-flyout .showcase-pane .vehicle .trims a{display:block;float:none!important;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;padding:0 5px 1px 10px!important;margin:0!important;text-align:left!important;font-size:10px!important;color:#1f64d9!important;white-space:nowrap;}*/
+/*.showcase-slider .scrollable .item .trims a:hover{color:#1f64d9!important;-moz-border-radius:0!important;-webkit-border-radius:0!important;text-decoration:underline;background-color:transparent;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;}*/
+/*#showcase-flyout .showcase-pane .items .vehicle .trims{position:absolute;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:190;text-align:left;min-width:200px!important;}*/
 
 /**************************************
 * News Ticker
