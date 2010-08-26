@@ -113,7 +113,8 @@ body.page-parent #home-content{}
 	box-shadow: 2px 2px 3px #222;
 	
 }
-#menubar #menu-navigation li.menu-item-2998 .sub-menu {width:109px;}
+#menubar #menu-navigation li.menu-item-2998 .sub-menu,
+#menubar #menu-navigation li.menu-item-2998 .sub-menu a {width:109px;}
 #menubar #menu-navigation li .sub-menu > li {float:none;}
 #menubar #menu-navigation li .sub-menu > li a {
 	background:none 0 0 #222;
