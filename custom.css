@@ -368,6 +368,8 @@ body.page-parent #home-content{}
 .dt-showcase{width:750px;margin:10px auto;}
 .dt-showcase .showcase-pane {
 	position:relative;
+	border:none;
+	border-top:1px solid #999;
 }
 .dt-showcase .vehicle{
 	display:inline-block;
