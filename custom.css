@@ -420,9 +420,6 @@ body.page-parent #home-content{}
 .dt-showcase .detail .photos .exterior-images .file{display:none;position:absolute;}
 .dt-showcase .detail .photos .exterior-images .file:first-child{display:block;}
 
-/* Showcase */
-.showcase-flyout .showcase-pane .vehicle .trims{display:none;position:absolute;top:5px;min-width:150px!important;}
-
 #quick-find{color:#999;background-color:white;padding:3px 5px 0 5px;font:normal 9pt arial;height:26px;margin-top:10px;border:solid 1px #aaa;-webkit-border-top-left-radius:7px;-moz-border-radius:7px 0 0 0;-webkit-box-shadow:1px 1px 3px #888;}
 #quick-find td img{vertical-align:middle;}
 #quick-find table{width:100%;margin:0;padding:0;}
