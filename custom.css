@@ -500,6 +500,7 @@ body.page-parent #home-content{}
 }
 .vhover .vehicle .trims {
 	display:block!important;
+	position:fixed;
 	margin:10px 0 10px 20px!important;
 	font-size:inherit;
 	color:#1D4A9F!important;
