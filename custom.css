@@ -651,7 +651,17 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 /**************************************
 * News Ticker
 **************************************/
-#news-ticker{background:white;height:140px;border:solid 1px #aaa;-webkit-border-top-left-radius:7px;-moz-border-radius:7px 0 0 0;}
+#news-ticker{
+	background:white;
+	height:140px;
+	border:solid 1px #aaa;
+	border-top-right-radius:7px;
+	-moz-border-radius-topright:7px;
+	-webkit-border-top-right-radius:7px;
+	border-top-left-radius:7px;
+	-moz-border-radius-topleft:7px;
+	-webkit-border-top-left-radius:7px;
+}
 #news-ticker .scrollable{position:relative;overflow:hidden;height:140px;padding:0;}
 #news-ticker .scrollable .items{width:30000em;position:absolute;text-align:center;}
 #news-ticker .scrollable .item{float:left;margin-left:7px;text-align:center;}
