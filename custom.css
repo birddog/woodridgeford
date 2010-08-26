@@ -508,8 +508,8 @@ body.page-parent #home-content{}
 }
 .vhover .vehicle .trims a {
 	padding-left:10px!important;
-	font-size:11px;
 	background:url(/wp-content/uploads/red_arrow_scroller.png) no-repeat left 3px transparent!important;
+	font-size:11px;
 }
 #page-43 .vhover .vehicle .trims a {display:block;}
 .vhover .actions {
