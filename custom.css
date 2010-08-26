@@ -467,7 +467,7 @@ body.page-parent #home-content{}
 	padding:0 0 27px;
 }
 .vhover .bot{background:url(/wp-content/uploads/vhover-bg-bot.png) no-repeat 0 bottom transparent!important;}
-.vhover .mid{background:url(/wp-content/uploads/vhover-bg-mid.png) repeat-y 0 0 transparent!important;margin-top:10px;}
+.vhover .mid{background:url(/wp-content/uploads/vhover-bg-mid.png) repeat-y 0 0 transparent!important;margin-top:5px;}
 
 .lrg {width:177px!important;background:url(/wp-content/uploads/vhover-lrg-bg-top.png) no-repeat 0 top transparent!important;}
 .lrg .bot{background:url(/wp-content/uploads/vhover-lrg-bg-bot.png) no-repeat 0 bottom transparent!important;}
