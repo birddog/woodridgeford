@@ -511,10 +511,10 @@ body.page-parent #home-content{}
 
 .vhover .vehicle .trims a {
 	padding-left:10px!important;
-	background:url(/wp-content/uploads/red_arrow_scroller.png) no-repeat left 3px transparent!important;
-	font-size:11px;
+	background:url(/wp-content/uploads/quick-find-bullet.png) no-repeat left 3px transparent!important;
+	font-size:11px!important;
 }
-#page-43 .vhover .vehicle .trims a {display:block;}
+#page-43 .vhover .vehicle .trims a {display:block!important;}
 .vhover .actions {
 	width:138px;
 	height:70px;
