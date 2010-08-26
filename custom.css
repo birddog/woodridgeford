@@ -442,6 +442,109 @@ body.page-parent #home-content{}
 .bird_dog .listings .vehicles .vehicle:hover{background:white url(/wp-content/uploads/2010/03/vehicle-grad-hover.jpg) repeat-x bottom left;}
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .drive_train,
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .trim_code{display:none;}
+/***************
+/*	showcase hover
+/***************/
+.showcase-pane {position:relative;}
+#showcase-slideout .vehicle, #dt-showcase .vehicle {
+	float:left;
+	display:block!important;
+	padding:0!important;
+	position:relative;
+	width:160px!important;
+}
+#page-43 #dt-showcase .vehicle {
+	margin:0 10px 10px 0!important;	
+}
+.vehicle .trims {display:none;}
+.vehicle .name {
+	font-weight:bold;
+	font-size:12px;
+}
+.vhover {
+	display:none;
+	position:absolute!important;
+	width:167px!important;
+	background:url(/wp-content/uploads/vhover-bg-top.png) no-repeat 0 top transparent!important;
+	z-index:2001;
+	padding:0 0 27px;
+}
+.vhover .bot{background:url(/wp-content/uploads/vhover-bg-bot.png) no-repeat 0 bottom transparent!important;}
+.vhover .mid{background:url(/wp-content/uploads/vhover-bg-mid.png) repeat-y 0 0 transparent!important;margin-top:10px;}
+.lrg {
+	width:177px!important;
+	background:url(/wp-content/uploads/vhover-lrg-bg-top.png) no-repeat 0 top transparent!important;
+}
+.lrg .bot{background:url(/wp-content/uploads/vhover-lrg-bg-bot.png) no-repeat 0 bottom transparent!important;}
+.lrg .mid{background:url(/wp-content/uploads/vhover-lrg-bg-mid.png) repeat-y 0 0 transparent!important;margin-top:10px;}
+
+.vhover .vehicle {
+	padding:0!important;
+	margin:0!important;
+	text-align:left!important;
+	float:none!important;
+	background:none repeat scroll 0 0 transparent!important;
+}
+.vhover .vehicle .image {
+	text-align:center!important;
+	margin:0 0 0 19px!important;
+}
+.lrg .vehicle .image {
+	margin:0 0 0 10px!important;	
+}
+#menubar .vhover .vehicle .image img{
+	margin:-10px 0 0 -2px;
+}
+#menubar .vhover .vehicle .name { margin-left:18px!important;}
+.vhover .vehicle .name {
+	color:#E21C22!important;
+	text-align:center!important;
+	font-weight:bold!important;
+	font-size:12px!important;
+	margin-left:20px!important;
+}
+.vhover .vehicle .trims {
+	display:block!important;
+	margin:10px 0 10px 20px!important;
+	font-size:inherit;
+	color:#e21c22!important;
+	list-style-type:none;
+}
+.vhover .vehicle .trims a {padding-left:10px!important; background:url(/wp-content/uploads/red_arrow_scroller.png) no-repeat left 3px transparent!important;}
+#page-43 .vhover .vehicle .trims a {display:block;}
+.vhover .actions {
+	width:138px;
+	height:70px;
+	margin:5px auto 0;
+	padding:12px 0 0;
+	text-align:center;
+	border-top:1px solid #eee;
+}
+.vhover .actions a {
+	display:block;
+	height:19px;
+	width:94px;
+	margin:0 auto 5px;
+}
+/* temp vhover for slider and flyout */
+.dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims {
+	background-color:#eee;	
+}
+.dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims br {
+	display:none;	
+}
+.dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims a {
+	display:block;
+	font-size:10px;
+}
+.dt-widgets.showcasesliderwidget .showcase-slider .scrollable .showcasesliderwidget-next {
+	background:url("/wp-content/plugins/dealertrend-widgets/images/arrow-right.png") no-repeat scroll center center white;
+	float:right;
+}
+.dt-widgets.showcasesliderwidget .showcase-slider .scrollable .showcasesliderwidget-prev {
+	background:url("/wp-content/plugins/dealertrend-widgets/images/arrow-left.png") no-repeat scroll center center white;
+	float:left;
+}
 
 /**************************************
 * Quick find Widget
