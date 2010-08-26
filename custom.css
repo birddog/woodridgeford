@@ -366,6 +366,9 @@ body.page-parent #home-content{}
 * Showroom Widget
 **************************************/
 .dt-showcase{width:750px;margin:10px auto;}
+.dt-showcase .showcase-pane {
+	position:relative;
+}
 .dt-showcase .vehicle{
 	display:inline-block;
 	position:relative;
