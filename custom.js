@@ -670,6 +670,12 @@ jQuery(function($) {
 		});
 	}	
 
+/*
+	New Vehicle hover effect
+*/
+	$('#post-43 #dt-showcase').vHover({mode: 3});
+
+
 });
 
 /*
@@ -1393,4 +1399,150 @@ jQuery.iPikaChoose = {
 }; //end jquery.ipikachoose
 
 jQuery.fn.PikaChoose = jQuery.iPikaChoose.build;
+
+
+
+/*!
+	* jQuery Showcase Hover
+	* http://www.chadpayne.ca
+	*
+	* Copyright 2010, Chad Payne
+	*
+	* Date: June 24, 2010 11:21 AM
+*/ 
+(function($) {
+	$.vHover = function (el, options) {
+		// To avoid scope issues, use 'base' instead of 'this'
+		// to reference this class from internal events and functions.
+		var base = this;
+
+		// Access to jQuery and DOM versions of element
+		base.$el = $(el);
+		base.el = el;
+
+		// Add a reverse reference to the DOM object
+		base.$el.data("vHover", base);
+		
+		base.init = function() {
+			base.options = $.extend({},$.vHover.defaultOptions, options);
+	
+			// Put your initialization code here
+			var vehicle = base.$el.find('.vehicle');				// the items to clone and make hovers out of
+			var baseDisplay = base.$el.css('display');	// Get current display setting of showcase to revert to
+			var id = base.$el.attr('id');									// Get showcase ID
+
+			// Display element off screen to obtain positioning for vhover
+			switch(base.options.mode) {
+				case 1: 
+					base.$el.parent().parent().css({left:'-10000px'}).show();
+					break;
+				case 2:
+					base.$el.show();
+					break;
+				case 3:
+					break
+			}
+				
+			// Loop through items to make clones and set events
+			vehicle.each(function(index, value) {
+				var $this = $(this); 											// .vehicle
+				var clone = $this.clone();								// cloned .vehicle
+				var position = $this.position();						// current position of elements	
+				
+				switch(base.options.mode) {
+					case 2:
+						var left = position.left + 5;
+						var top = '34px';
+						break;
+					default:
+						var left = position.left;
+						var top = position.top;
+						break;
+				}				
+
+				// Create hover elements at bottom of page
+				base.createvHoverElement(base.$el, clone, index, base.options);
+					
+				// Cache hover element in variable
+				var vhover = $('body').find('#' + id + '-vhover-' + index);
+				vhover.css({top: top, left: left}).hide();					
+			
+				//  Bind hovers to elements
+				base.hoverEffect(base.$el, $this, vhover, index, base.options);
+			});
+			
+/*			
+			var prev = showcase.find('.showcase-prev');
+			var next = showcase.find('.showcase-next');
+			// for flyout slider showcase and slider showcase we have to move vhovers on scroll of the showcase.
+			if(options.mode == 2 && prev.length && next.length){
+				vhover.each(function() {
+					var left = $(this).css('left'); 
+					prev.bind('click', function() {
+						$(this).css({left: (left + 163)});
+					});
+					next.bind('click', function() {
+						$(this).css({left: (left - 163)});				
+					});
+					
+				});
+			}	
+*/
+			// reset showcase to defaults after loop is done and items are created.
+			switch(base.options.mode) {
+				case 1: 
+					base.$el.parent().parent().css({left: base.options.defaultLeft, display: 'none' });	
+					break;
+				default:
+					break;
+			}
+		}
+
+		base.createvHoverElement = function(showcase, clone, index, options) {
+			if(options.mode == 1 ) {
+					showcase.find(options.showcasePane).append('<div id="' + showcase.attr('id') + '-vhover-' + index + '" class="vhover"><div class="mid"><div class="actions"><a href="/new-used-vehicles/new-vehicles/test-drive/"><img src="/wp-content/uploads/btn-testdrive.png" width="94" height="18" /></a><a href="/new-used-vehicles/pre-owned-vehicles/trade-in-evaluation/"><img src="/wp-content/uploads/btn-tradein.png" width="94" height="18" /></a><a href="/contact-us/"><img src="/wp-content/uploads/btn-contact.png" width="94" height="19" /></a></div></div><div class="bot">&nbsp;</div></div>');				
+			} else  if( options.mode == 2)  {
+					$('#' + showcase.attr('id')).after('<div id="' + showcase.attr('id') + '-vhover-' + index + '" class="vhover"><div class="mid"><div class="actions"><a href="/new-used-vehicles/new-vehicles/test-drive/"><img src="/wp-content/uploads/btn-testdrive.png" width="94" height="18" /></a><a href="/new-used-vehicles/pre-owned-vehicles/trade-in-evaluation/"><img src="/wp-content/uploads/btn-tradein.png" width="94" height="18" /></a><a href="/contact-us/"><img src="/wp-content/uploads/btn-contact.png" width="94" height="19" /></a></div></div><div class="bot">&nbsp;</div></div>');			
+			} else if( options.mode == 3) {
+					showcase.find(options.showcasePane).append('<div id="' + showcase.attr('id') + '-vhover-' + index + '" class="vhover lrg"><div class="mid"><div class="actions"><a href="/new-used-vehicles/new-vehicles/test-drive/"><img src="/wp-content/uploads/btn-testdrive.png" width="94" height="18" /></a><a href="/new-used-vehicles/pre-owned-vehicles/trade-in-evaluation/"><img src="/wp-content/uploads/btn-tradein.png" width="94" height="18" /></a><a href="/contact-us/"><img src="/wp-content/uploads/btn-contact.png" width="94" height="19" /></a></div></div><div class="bot">&nbsp;</div></div>');								
+			}
+			// remove rogue line breaks
+			clone.find('br').remove();
+			// force small image 
+			//clone.find('.image img').attr({width: '130', height: '80'});
+			// add clone into created vhover element.
+			return clone.prependTo('#' + showcase.attr('id') + '-vhover-' + index + ' .mid');
+		}
+
+		base.hoverEffect = function (showcase, vehicle, vhover, index, options) {
+			// Bind hover effect to both hovered element and .vehicle
+			vehicle.add(vhover).bind('mouseenter', function() {
+					vhover.stop(true).css({opacity: 0.0}).show().animate({ opacity: 1.0 }, options.fadeInSpeed);
+			 }).bind('mouseleave', function(){
+				vhover.stop(true).animate({ opacity: 0.0 }, options.fadeOutSpeed, function(){
+					$(this).hide();
+				});
+			}); 
+
+		}
+
+        // Run initializer
+        base.init();
+	}
+
+    $.vHover.defaultOptions = {
+		mode: 1, 				// mode 1 = quickfindGrid, mode 2 = slider, mode 3 = grid
+		fadeInSpeed:200,			// Animation Speed
+		fadeOutSpeed:200,			// Animation Speed
+		showcasePane: '.showcase-pane',		// Container vehicles are in. Used for grid
+		defaultLeft: 'auto'			// Default left value if needed to be set.
+    }
+
+    $.fn.vHover = function(options){
+        return this.each(function(){
+            (new $.vHover(this, options));
+        });
+    };
+
+})(jQuery);
 
