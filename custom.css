@@ -443,11 +443,14 @@ body.page-parent #home-content{}
 /*	showcase hover
 /******************************/
 .dt-showcase .showcase-pane {position:relative;border:none;}
-#showcase-slideout .vehicle, #dt-showcase .vehicle {
+#dt-showcase .vehicle {
 	float:left;
 	display:block!important;
 	padding:0!important;
 	position:relative;
+	width:180px!important;
+}
+#showcase-slideout .dt-showcase .vehicle {
 	width:180px!important;
 }
 #page-43 #dt-showcase .vehicle {

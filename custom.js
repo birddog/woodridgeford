@@ -670,9 +670,9 @@ jQuery(function($) {
 		});
 	}	
 
-/*
-	New Vehicle hover effect
-*/
+	/*
+		New Vehicle hover effect
+	*/
 	$('#post-43 #dt-showcase').vHover({mode: 3});
 	$('#slideout .dt-showcase').vHover({mode: 1});
 
