@@ -372,12 +372,12 @@ body.page-parent #home-content{}
 	border:none;
 }
 .dt-showcase .vehicle{
-	display:inline-block;
-	position:relative;
+	display:inline-block!important;
+	position:relative!important;
 	margin:5px!important;
-	text-align:center;
-	background:white;
-	width:160px;
+	text-align:center!important;
+	background:white!important;
+	width:160px!important;
 }
 .dt-showcase p{margin:5px 10px;}
 .dt-showcase .models{padding:10px;}
