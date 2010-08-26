@@ -440,27 +440,8 @@ body.page-parent #home-content{}
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .drive_train,
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .trim_code{display:none;}
 /******************************
-/*	showcase hover
+/*	General Vehicle hover
 /******************************/
-.dt-showcase .showcase-pane {position:relative;border:none;}
-#dt-showcase .vehicle {
-	float:left;
-	display:block!important;
-	padding:0!important;
-	position:relative;
-	width:180px!important;
-}
-#showcase-slideout .dt-showcase .vehicle {
-	width:180px!important;
-}
-#page-43 #dt-showcase .vehicle {
-	margin:0 10px 10px 0!important;	
-}
-.vehicle .trims {display:none;}
-.vehicle .name {
-	font-weight:bold;
-	font-size:12px;
-}
 .vhover {
 	display:none;
 	position:absolute!important;
@@ -533,6 +514,37 @@ body.page-parent #home-content{}
 	width:94px;
 	margin:0 auto 5px;
 }
+
+#showcase-slideout .dt-showcase {
+	width:100%;
+}
+#showcase-slideout .dt-showcase .vehicle {
+	width:180px!important;
+}
+/******************************
+/*	Slideout Vehicle hover
+/******************************/
+#dt-showcase .vehicle {
+	float:left;
+	display:block!important;
+	padding:0!important;
+	position:relative;
+	width:180px!important;
+}
+/******************************
+/*	New Vehicle showroom hover
+/******************************/
+#page-43 #dt-showcase .vehicle {
+	margin:0 10px 10px 0!important;	
+}
+.vehicle .trims {display:none;}
+.vehicle .name {
+	font-weight:bold;
+	font-size:12px;
+}
+
+
+.dt-showcase .showcase-pane {position:relative;border:none;}
 /* temp vhover for slider and flyout */
 .dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims {
 	background-color:#eee;	
