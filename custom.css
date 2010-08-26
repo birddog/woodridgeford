@@ -439,9 +439,9 @@ body.page-parent #home-content{}
 .bird_dog .listings .vehicles .vehicle:hover{background:white url(/wp-content/uploads/2010/03/vehicle-grad-hover.jpg) repeat-x bottom left;}
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .drive_train,
 .bird_dog .listings .vehicles .vehicle .vehicle-desc .trim_code{display:none;}
-/***************
+/******************************
 /*	showcase hover
-/***************/
+/******************************/
 .showcase-pane {position:relative;border:none;}
 #showcase-slideout .vehicle, #dt-showcase .vehicle {
 	float:left;
@@ -487,10 +487,6 @@ body.page-parent #home-content{}
 .lrg .vehicle .image {
 	margin:0 0 0 10px!important;	
 }
-#menubar .vhover .vehicle .image img{
-	margin:-10px 0 0 -2px;
-}
-#menubar .vhover .vehicle .name { margin-left:18px!important;}
 .vhover .vehicle .name {
 	color:#1D4A9F!important;
 	text-align:center!important;
