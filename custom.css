@@ -209,7 +209,7 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 .slideshowwidget .slideshowwidget-next span{display:none;}
 .slideshowwidget .pager{width:960px;}
 .slideshowwidget .pager .pages{position:absolute;right:10px;bottom:-350px;}
-.slideshowwidget .pager .pages a{display:block!important;float:left!important;height:15px!important;width:15px!important;font-size:9px!important;text-align:left!important;line-height:15px!important;color:#222!important;text-decoration:none!important;margin:0 1px!important;border:none!important;opacity:0.8!important;background:url('/wp-content/uploads/2010/03/slideshowwidget-pager-circle.png') no-repeat!important;}
+.slideshowwidget .pager .pages a{display:block!important;float:left!important;height:15px!important;width:15px!important;font-size:9px!important;text-align:left!important;line-height:15px!important;color:#222!important;text-decoration:none!important;margin:0 1px!important;border:none!important;opacity:0.8!important;background:url('/wp-content/uploads/2010/03/slideshowwidget-pager-circle.png') no-repeat 0 0 fixed transparent!important;}
 .slideshowwidget .pager .pages a.activeSlide,
 .slideshowwidget .pager .pages a:hover{opacity:1.0!important;font-weight:bold;}/* unknown */
 #vehicle-picker{height:100px;border:solid 1px #aaa;-webkit-border-radius:7px;}
