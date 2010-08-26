@@ -445,7 +445,7 @@ body.page-parent #home-content{}
 /***************
 /*	showcase hover
 /***************/
-.showcase-pane {position:relative;}
+.showcase-pane {position:relative;border:none;}
 #showcase-slideout .vehicle, #dt-showcase .vehicle {
 	float:left;
 	display:block!important;
