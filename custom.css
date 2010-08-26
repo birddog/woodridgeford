@@ -498,10 +498,12 @@ body.page-parent #home-content{}
 	display:block!important;
 	position:relative!important;
 	margin:10px 0 10px 20px!important;
-	font-size:inherit!important;
+	font-size:11px!important;
 	color:#1D4A9F!important;
-	list-style-type:none;
+	list-style-type:none!important;
+	min-width:inherit!important;
 }
+
 .vhover .vehicle .trims a {
 	padding-left:10px!important;
 	background:url(/wp-content/uploads/red_arrow_scroller.png) no-repeat left 3px transparent!important;
