@@ -330,11 +330,7 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 #page-43 #dt-showcase .vehicle {
 	margin:0 10px 10px 0!important;	
 }
-.vehicle .trims {display:none;}
-.vehicle .name {
-	font-weight:bold;
-	font-size:12px;
-}
+
 /******************************
 /*	General Vhover defaults
 /******************************/
@@ -346,9 +342,13 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 	width:180px!important;
 }
 .dt-showcase .showcase-pane {position:relative;border:none;}
+.dt-showcase .vehicle .trims {display:none;}
+.dt-showcase .vehicle .name {
+	font-weight:bold;
+	font-size:12px;
+}
 
-
-/* temp vhover for slider and flyout */
+/* temp vhover for slider */
 .dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims {
 	background-color:#eee;	
 }
