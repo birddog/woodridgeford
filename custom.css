@@ -370,7 +370,6 @@ body.page-parent #home-content{}
 .dt-showcase .showcase-pane {
 	position:relative;
 	border:none;
-	border-top:1px solid #999;
 }
 .dt-showcase .vehicle{
 	display:inline-block;
@@ -443,7 +442,7 @@ body.page-parent #home-content{}
 /******************************
 /*	showcase hover
 /******************************/
-.showcase-pane {position:relative;border:none;}
+.dt-showcase .showcase-pane {position:relative;border:none;}
 #showcase-slideout .vehicle, #dt-showcase .vehicle {
 	float:left;
 	display:block!important;
