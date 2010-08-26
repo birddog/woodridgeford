@@ -502,6 +502,11 @@ body.page-parent #home-content{}
 	color:#1D4A9F!important;
 	list-style-type:none!important;
 	min-width:inherit!important;
+	-moz-border-radius:0!important;
+	background:none repeat scroll 0 0 transparent!important;
+	border:none!important;
+	padding:0!important;
+	z-index:inherit!important;
 }
 
 .vhover .vehicle .trims a {
