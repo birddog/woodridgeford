@@ -208,14 +208,14 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 .slideshowwidget .slideshowwidget-prev span,
 .slideshowwidget .slideshowwidget-next span{display:none;}
 .slideshowwidget .pager{width:960px;}
-.slideshowwidget .pager .pages{position:absolute;bottom:2px;right:10px;bottom:-350px;}
+.slideshowwidget .pager .pages{position:absolute;bottom:5px;right:10px;bottom:-350px;}
 .slideshowwidget .pager .pages a{
 	display:block!important;
 	float:left!important;
-	height:20px!important;
-	width:20px!important;
+	height:15px!important;
+	width:15px!important;
 	font-size:10px!important;
-	text-align:left!important;
+	text-align:center!important;
 	line-height:12px!important;
 	color:#222!important;
 	text-decoration:none!important;
