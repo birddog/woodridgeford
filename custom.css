@@ -93,7 +93,8 @@ body.page-parent #home-content{}
 /**************************************
 * Footer
 **************************************/
-breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-radius:8px; -moz-border-radius-bottomright:8px; -webkit-border-bottom-right-radius:8px}
+#breakout-footer{background:url(/wp-content/uploads/footer-bottom-background.gif) repeat 0 bottom #fff;}
+#footer-bottom {width:960px; margin: 0 auto;}
 #footer-bottom a{color:#555; font-weight:bold}
 #footer-bottom a:hover{color:#1d4a9f}
 #footer-bottom h5 a{color:#1d4a9f; font-size:14px}
