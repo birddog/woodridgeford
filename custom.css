@@ -517,7 +517,11 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 /**************************************
 * Bump up Button
 **************************************/
-.bumpupbuttonwidget{height:140px;}
+.bumpupbuttonwidget{
+	height:140px;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius:8px 0 0 0;
+}
 .bumpupbuttonwidget a{
 	display:block;
 	text-decoration:none;
