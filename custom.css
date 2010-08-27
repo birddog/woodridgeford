@@ -220,9 +220,10 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 	color:#222!important;
 	text-decoration:none!important;
 	margin:0 1px!important;
+	padding:0 5px;
 	border:none!important;
 	opacity:1!important;
-	background:none no-repeat 50% 50% fixed #fff!important;
+	background:url('/wp-content/uploads/2010/03/slideshowwidget-pager-circle.png') no-repeat 50% 50% fixed #fff!important;
 }
 .slideshowwidget .pager .pages a.activeSlide,
 .slideshowwidget .pager .pages a:hover{opacity:1.0!important;font-weight:bold;}/* unknown */
