@@ -7,7 +7,10 @@
       <div class="clear"></div>
 
       <div id="footer">
-        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer-left") ) : ?><?php endif; ?>
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer-left") ) :
+                echo '<div class="foot-right">'; ?>
+        <?php   echo '</div>';
+              endif; ?>
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer-middle") ) : ?><?php endif; ?>
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer-right") ) : ?><?php endif; ?>
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer") ) : ?><?php endif; ?>
