@@ -212,8 +212,8 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 .slideshowwidget .pager .pages a{
 	display:block!important;
 	float:left!important;
-	height:15px!important;
-	width:15px!important;
+	height:20px!important;
+	width:20px!important;
 	font-size:10px!important;
 	text-align:left!important;
 	line-height:12px!important;
@@ -223,7 +223,7 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 	padding:0 5px;
 	border:none!important;
 	opacity:1!important;
-	background:url('/wp-content/uploads/2010/03/slideshowwidget-pager-circle.png') no-repeat 50% 50% fixed #fff!important;
+	background:url('/wp-content/uploads/2010/03/slideshowwidget-pager-circle.png') no-repeat 50% 50% fixed transparent!important;
 }
 .slideshowwidget .pager .pages a.activeSlide,
 .slideshowwidget .pager .pages a:hover{opacity:1.0!important;font-weight:bold;}/* unknown */
