@@ -533,8 +533,17 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 .accordionmenuwidget-pages,
 .accordionmenuwidget-pages ul{list-style-type:none;margin:0;padding:0;position:relative;background-color:#F4F4F4;}
 .accordionmenuwidget-pages > li{}
-.accordionmenuwidget-pages > li > a{/* parent */
-display:block;padding:5px;color:#626262;font-weight:bold;border-top:1px solid #999;background-color:#eee;background-image:url('/wp-content/uploads/2010/03/sidebar-title-borderbottom.png');background-repeat:no-repeat;background-position:center bottom;}
+.accordionmenuwidget-pages > li > a{
+	display:block;
+	padding:5px;
+	color:#626262;
+	font-weight:bold;
+	border-top:1px solid #999;
+	background-color:#eee;
+	background-image:url('/wp-content/uploads/bumpup-titlebar.png');
+	background-repeat:no-repeat;
+	background-position:center bottom;
+}
 .accordionmenuwidget-pages > li > a.activeParent{}
 .accordionmenuwidget-pages li > ul{margin:0 10px;padding:5px 0 5px 16px;display:none;}
 .accordionmenuwidget-pages li > ul li{margin-bottom:1px;}
