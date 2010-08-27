@@ -221,7 +221,7 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 	text-decoration:none!important;
 	margin:0 1px!important;
 	border:none!important;
-	opacity:0.8!important;
+	opacity:1!important;
 	background:url('/wp-content/uploads/2010/03/slideshowwidget-pager-circle.png') no-repeat 0 0 fixed transparent!important;
 }
 .slideshowwidget .pager .pages a.activeSlide,
