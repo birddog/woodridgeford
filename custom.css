@@ -521,6 +521,7 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 	height:140px;
 	-webkit-border-top-left-radius:9px;
 	-moz-border-radius:9px 0 0 0;
+	background:transparent!important;
 }
 .bumpupbuttonwidget a{
 	display:block;
