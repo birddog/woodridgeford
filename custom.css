@@ -499,8 +499,8 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 	-webkit-border-top-left-radius:7px;
 }
 #news-ticker .scrollable{position:relative;overflow:hidden;height:140px;padding:0;}
-#news-ticker .scrollable .items{width:30000em;position:absolute;text-align:center;}
-#news-ticker .scrollable .item{float:left;margin:5px 5px 5px 0;text-align:center;}
+#news-ticker .scrollable .items{width:30000em;position:absolute;text-align:center;padding-left:5px;}
+#news-ticker .scrollable .item{float:left;margin:5px 6.9px 5px 0;text-align:center;}
 .dt-widgets.sliderwidget .scrollable div.items div  {margin:0;}
 #news-ticker .scrollable .item, #news-ticker .scrollable .item img{width:141px!important;}
 #news-ticker .scrollable .sliderwidget-prev,
