@@ -210,7 +210,7 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 .slideshowwidget .pager{width:960px;}
 .slideshowwidget .pager .pages{position:absolute;right:10px;bottom:-347px;}
 .slideshowwidget .pager .pages a,
-.dt-widgets.slideshowwidget .pager a {
+.dt-widgets.slideshowwidget .pager .pages a {
 	display:block!important;
 	float:left!important;
 	height:15px!important;
