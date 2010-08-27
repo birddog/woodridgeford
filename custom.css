@@ -519,8 +519,8 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 **************************************/
 .bumpupbuttonwidget{
 	height:140px;
-	-webkit-border-top-left-radius:9px;
-	-moz-border-radius:9px 0 0 0;
+	-webkit-border-top-left-radius:11px;
+	-moz-border-radius:11px 0 0 0;
 	background:transparent!important;
 }
 .bumpupbuttonwidget a{
@@ -531,7 +531,7 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 	font-size:14px;
 	font-weight:bold;
 	height:51px;
-	padding:5px 0 0;
+	padding:10px 0 0;
 	background:url(/wp-content/uploads/bumpup-titlebar.png) no-repeat 0 0 transparent;
 	opacity:1;
 	white-space:nowrap;
