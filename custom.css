@@ -93,22 +93,22 @@ body.page-parent #home-content{}
 /**************************************
 * Footer
 **************************************/
-#breakout-footer{background:url(/wp-content/uploads/footer-bottom-background.gif) repeat 0 bottom #fff;}
-#footer-bottom {width:960px; margin: 0 auto;}
-#footer-bottom a{color:#555; font-weight:bold}
-#footer-bottom a:hover{color:#1d4a9f}
-#footer-bottom h5 a{color:#1d4a9f; font-size:14px}
-#footer-bottom .footer-row{background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff; height:177px; border:1px solid #ccc; overflow:hidden}
-#footer-bottom .footer-row div{margin:0 0 0 10px; padding:10px 0 10px 10px; height:157px; border-left:1px solid #ccc}
-#footer-bottom .footer-row div.alpha{border:none}
-#footer-bottom .footer-row div.grid_3{width:210px}
-#footer-bottom .footer-row div .right{float:right}
-#footer-bottom .footer-row div ul.last{width:120px}
-#footer-bottom .footer-row div.qm ul.last{width:170px}
-#footer-bottom ul{float:left; padding:0 0 0 1.5em; list-style-image:url(/wp-content/uploads/quick-find-bullet.png)!important}
-#footer-bottom ul li{color:#555!important; font-weight:bold; font-size:11px; line-height:15px}
-#footer-bottom ul li.special{border-top:1px solid #ccc}
-#footer-bottom #dealership-links{text-align:center; padding:15px 0; font-size:12px}
+#breakout-footer{background:url(/wp-content/uploads/footer-bottom-background.gif) repeat left top #fff;}
+#breakout-footer #footer-bottom {width:960px; margin: 0 auto;}
+#breakout-footer #footer-bottom a{color:#555; font-weight:bold}
+#breakout-footer #footer-bottom a:hover{color:#1d4a9f}
+#breakout-footer #footer-bottom h5 a{color:#1d4a9f; font-size:14px}
+#breakout-footer #footer-bottom .footer-row{background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff; height:177px;  overflow:hidden}
+#breakout-footer #footer-bottom .footer-row div{margin:0 0 0 10px; padding:10px 0 10px 10px; height:157px; border-left:1px solid #ccc}
+#breakout-footer #footer-bottom .footer-row div.alpha{border:none}
+#breakout-footer #footer-bottom .footer-row div.grid_3{width:210px}
+#breakout-footer #footer-bottom .footer-row div .right{float:right}
+#breakout-footer #footer-bottom .footer-row div ul.last{width:120px}
+#breakout-footer #footer-bottom .footer-row div.qm ul.last{width:170px}
+#breakout-footer #footer-bottom ul{float:left; padding:0 0 0 1.5em; list-style-image:url(/wp-content/uploads/quick-find-bullet.png)!important}
+#breakout-footer #footer-bottom ul li{color:#555!important; font-weight:bold; font-size:11px; line-height:15px}
+#breakout-footer #footer-bottom ul li.special{border-top:1px solid #ccc}
+#breakout-footer #footer-bottom #dealership-links{text-align:center; padding:15px 0; font-size:12px}
 
 
 /**************************************
