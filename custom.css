@@ -208,7 +208,7 @@ breakout-footer{-moz-border-radius-bottomleft:8px; -webkit-border-bottom-left-ra
 .slideshowwidget .slideshowwidget-prev span,
 .slideshowwidget .slideshowwidget-next span{display:none;}
 .slideshowwidget .pager{width:960px;}
-.slideshowwidget .pager .pages{position:absolute;right:10px;bottom:-345px;}
+.slideshowwidget .pager .pages{position:absolute;right:10px;bottom:-355px;}
 .slideshowwidget .pager .pages a{
 	display:block!important;
 	float:left!important;
