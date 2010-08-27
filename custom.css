@@ -534,7 +534,6 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 	padding:10px 0 0;
 	background:url(/wp-content/uploads/bumpup-titlebar.png) no-repeat 0 0 transparent;
 	opacity:1;
-	white-space:nowrap;
 }
 .bumpupmenuwidget{height:140px;border:solid 1px #aaa;-webkit-border-top-left-radius:7px;-moz-border-radius:7px 0 0 0;overflow:hidden;background:url(/wp-content/uploads/whatsInStore.jpg) bottom left no-repeat;}
 .bumpupmenuwidget h1{display:block;text-decoration:none;text-align:center;color:#5b5b5b;font-size:18px;font-weight:normal;height:30px;margin:0;padding:20px 0 0;background:url(/wp-content/uploads/bumpup-titlebar.png) no-repeat 8px -4px;-webkit-border-top-left-radius:7px;-moz-border-radius:7px 0 0 0;border-bottom:1px solid #666;white-space:nowrap;}
