@@ -448,7 +448,16 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 	background-color:#fff!important;
 	list-style-image:url("/wp-content/uploads/quick-find-bullet.png") !important;
 }
-.showcase-slider .trims a{font-size:10px!important;}
+.showcase-slider .trims a{
+	font-size:10px!important;
+	color:inherit!important;
+	display:block!important;
+	margin:0!important;
+	min-width:inherit!important;
+	padding:0!important;
+	text-align:left!important;
+	white-space:normal!important;
+}
 
 /**************************************
 * News Ticker
