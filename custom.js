@@ -215,7 +215,7 @@ jQuery(function($) {
 		});
 	});
 
-	$('#emailWindow .close').click(function() {
+	$('#emailWindow .close').add('#close-window').click(function() {
 		$('body #jquery-overlay').remove();
 		$('#emailWindow').hide();
 	});
