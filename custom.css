@@ -451,44 +451,6 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 .showcase-slider .trims a{font-size:10px!important;}
 
 /**************************************
-* Widgets showcase flyout
-**************************************/
-#showcase-flyout{overflow:hidden;width:840px;height:95px;z-index:10000;border:1px solid #999;border-top:0;background:#fff;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;-webkit-box-shadow:1px 1px 5px #888;box-shadow:2px 2px 5px #666;-moz-box-shadow:2px 2px 5px #666;}
-#showcase-flyout .showcase-tabs{display:none!important;position:relative;height:19px;background:#f1f1f1;color:white;text-align:left;border-color:#eee;overflow:hidden;}
-#showcase-flyout .showcase-tabs ul{display:inline-block;text-align:left;padding:0;margin:0;list-style:none;}
-/* not applied from the looks of it ul.tabs li seems to be the formatt but looking for .tabs ul */
-#showcase-flyout .showcase-tabs li{position:absolute;top:-1px;left:110px;float:none;display:inline-block;padding:0;margin:0;list-style:none;}
-#showcase-flyout .showcase-tabs li:first-child{left:25px;}
-#showcase-flyout .showcase-tabs li a,
-#showcase-flyout .showcase-tabs li a.current:hover{border:none;padding:0;margin:0;display:block;height:19px;line-height:22px;width:75px;color:#1f64d9!important;background-image:url('/wp-content/uploads/2010/03/tab-inverted.png');background-repeat:no-repeat;-moz-border-radius:0;opacity:1.0!important;}
-#showcase-flyout .showcase-tabs li a.current,
-#showcase-flyout .showcase-tabs li a:hover{background:url('/wp-content/uploads/2010/03/tab-inverted-grey.png')!important;color:#fff!important;}
-#showcase-flyout .showcase-prev{position:absolute;top:0;left:0;width:20px;height:97px;margin:0 0 1px 1px;z-index:200;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.png') no-repeat center center;}
-#showcase-flyout .showcase-next{position:absolute;top:0;right:0;width:20px;height:97px;margin:0 1px 1px 0;z-index:200;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.png') no-repeat center center;}
-#showcase-flyout .disabled{opacity:0.3;}
-#showcase-flyout .showcase-pane{border:none;padding:0;margin:0;}
-#showcase-flyout .showcase-pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
-#showcase-flyout .showcase-pane .items .vehicle{position:relative;float:left;width:163px;text-align:center;}
-
-/*.dt-showcase .trims,*/
-/*.showcase-slider .trims,*/
-/*#showcase-flyout .trims{display:none;background:none repeat scroll 0 0 #ccc!important;border:solid 1px #aaa;position:absolute!important;top:0!important;text-align:left!important;padding:0 10px!important;-webkit-border-radius:5px;-moz-border-radius:5px;z-index:400;}*/
-/*.dt-showcase .trims a,*/
-/*.showcase-slider .trims a,*/
-/*#showcase-flyout .trims a{font-size:10px!important;color:#666;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 5px;background-repeat:no-repeat;padding:2px 0 0 8px;white-space:nowrap;}*/
-/*.dt-showcase .trims br,*/
-/*.showcase-slider .trims br,*/
-/*#showcase-flyout .trims br,*/
-/*.showcase-slider .scrollable .item .trims br,*/
-/*#showcase-flyout .showcase-pane .vehicle .trims br{display:none;}*/
-/*.showcase-slider .scrollable .item .trims,*/
-/*#showcase-flyout .showcase-pane .vehicle .trims{background:none repeat scroll 0 0 rgb(220,220,220)!important;border:solid 1px #aaa;position:absolute!important;top:0!important;left:30px;text-align:left!important;padding:2px 10px!important;position:relative;top:-80px;padding:5px;min-width:200px!important;-webkit-border-radius:5px;}*/
-/*.showcase-slider .scrollable .item .trims a,*/
-/*#showcase-flyout .showcase-pane .vehicle .trims a{display:block;float:none!important;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;padding:0 5px 1px 10px!important;margin:0!important;text-align:left!important;font-size:10px!important;color:#1f64d9!important;white-space:nowrap;}*/
-/*.showcase-slider .scrollable .item .trims a:hover{color:#1f64d9!important;-moz-border-radius:0!important;-webkit-border-radius:0!important;text-decoration:underline;background-color:transparent;background-image:url("/wp-content/uploads/2010/03/blue_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;}*/
-/*#showcase-flyout .showcase-pane .items .vehicle .trims{position:absolute;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:190;text-align:left;min-width:200px!important;}*/
-
-/**************************************
 * News Ticker
 **************************************/
 #news-ticker{
