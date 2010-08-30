@@ -154,7 +154,7 @@ body.page-parent #home-content{}
 #fiesta-wrap{background-image:url(/wp-content/uploads/2010/03/fie11_feat_perf_billboard.jpg);background-repeat:no-repeat;background-position:75px top;height:380px;}
 #fiesta-wrap .pricing{background-color:#222;color:#fff;-moz-border-radius:5px;-webkit-border-radius:5px;}
 #fiesta-wrap .pricing span{margin:5px;}
-#fiesta-wrap .pricing .lrg{font-size:36px;font-weight:bold;}
+#fiesta-wrap .pricing .lrg{font-size:36px;font-weight:bold;background:none;}
 #fiesta-wrap .pricing .note{font-size:10px;}
 #fiesta-wrap .tri-1{padding-top:26px;}
 #fiesta-wrap .tri-2{}
