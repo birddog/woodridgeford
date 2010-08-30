@@ -368,7 +368,7 @@ body.page-parent #home-content{}
 
 /* temp vhover for slider */
 .dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims {
-	background-color:#eee;	
+	background-color:#fff;	
 }
 .dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims br {
 	display:none;	
