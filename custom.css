@@ -444,7 +444,7 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 	top:-80px!important;
 	width:auto!important;
 	z-index:1000!important;
-	margin:0!important;
+	margin:0 0 0 25px!important;
 	background-color:#fff!important;
 	list-style-image:url("/wp-content/uploads/quick-find-bullet.png") !important;
 }
