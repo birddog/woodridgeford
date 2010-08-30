@@ -447,6 +447,7 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 .showcase-slider .scrollable .prev{float:left;background:url('/wp-content/uploads/2010/02/small-gray-arrow-1.png') no-repeat center center !important;-webkit-border-bottom-left-radius:10px;-moz-border-radius:0 0 0 10px;}
 .showcase-slider .scrollable .next{float:right;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.png') no-repeat center center !important;-webkit-border-bottom-right-radius:10px;-moz-border-radius:0 0 10px 0;}
 
+.showcase-slider .trims {width:200px!important;}
 .showcase-slider .trims a{font-size:10px!important;}
 
 /**************************************
