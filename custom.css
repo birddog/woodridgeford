@@ -437,7 +437,7 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 .showcase-slider .scrollable .next{float:right;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.png') no-repeat center center !important;-webkit-border-bottom-right-radius:10px;-moz-border-radius:0 0 10px 0;}
 
 .showcase-slider .trims {
-	-moz-column-count:none!important;
+	-moz-column-count:1!important; /* I Hate this line. More so browser specific code that only works in one browser. CP */
 	padding:5px!important;
 	position:relative!important;
 	text-align:left!important;
