@@ -255,7 +255,7 @@ jQuery(function($) {
 		}
 	});
 
-	$(".close").click(function() {
+	$("#sync-wrap .close").click(function() {
 		$(this).parent().hide();
 	});
 
