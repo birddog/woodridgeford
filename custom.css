@@ -437,19 +437,18 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 .showcase-slider .scrollable .next{float:right;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.png') no-repeat center center !important;-webkit-border-bottom-right-radius:10px;-moz-border-radius:0 0 10px 0;}
 
 .showcase-slider .trims {
-	-moz-column-count:none;
-	padding:5px;
-	position:relative;
-	text-align:left;
-	top:-80px;
-	width:auto;
-	z-index:1000;
-	margin:0;
-	background-color:#fff;
+	-moz-column-count:none!important;
+	padding:5px!important;
+	position:relative!important;
+	text-align:left!important;
+	top:-80px!important;
+	width:auto!important;
+	z-index:1000!important;
+	margin:0!important;
+	background-color:#fff!important;
 	list-style-image:url("/wp-content/uploads/quick-find-bullet.png") !important;
 }
 .showcase-slider .trims a{font-size:10px!important;}
-.showcase-slider .trims br {line-height:0;display:block;}
 
 /**************************************
 * News Ticker
