@@ -449,6 +449,7 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 
 .showcase-slider .trims {width:200px!important;}
 .showcase-slider .trims a{font-size:10px!important;}
+.showcase-slider .trims br {line-height:0;display:block;}
 
 /**************************************
 * News Ticker
