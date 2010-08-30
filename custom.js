@@ -1506,7 +1506,7 @@ jQuery.fn.PikaChoose = jQuery.iPikaChoose.build;
 
     $.vHover.defaultOptions = {
 		mode: 1, 				// mode 1 = quickfindGrid, mode 2 = slider, mode 3 = grid
-		fadeInSpeed:500,			// Animation Speed
+		fadeInSpeed:250,			// Animation Speed
 		fadeOutSpeed:500,			// Animation Speed
 		showcasePane: '.showcase-pane',		// Container vehicles are in. Used for grid
 		defaultLeft: 'auto'			// Default left value if needed to be set.
