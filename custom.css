@@ -366,17 +366,6 @@ body.page-parent #home-content{}
 	font-size:12px;
 }
 
-/* temp vhover for slider */
-.dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims {
-	background-color:#fff;	
-}
-.dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims br {
-	display:none;	
-}
-.dt-widgets.showcasesliderwidget .showcase-slider .scrollable .items .item .trims a {
-	display:block;
-	font-size:10px;
-}
 .dt-widgets.showcasesliderwidget .showcase-slider .scrollable .showcasesliderwidget-next {
 	background:url("/wp-content/plugins/dealertrend-widgets/images/arrow-right.png") no-repeat scroll center center white;
 	float:right;
@@ -455,6 +444,7 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 	top:-80px;
 	width:auto;
 	z-index:1000;
+	margin:0;
 	background-color:#fff;
 	list-style-image:url("/wp-content/uploads/quick-find-bullet.png") !important;
 }
