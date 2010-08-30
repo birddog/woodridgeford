@@ -438,13 +438,13 @@ hr.blue{border-bottom:1px solid #1d4a9f;}
 
 .showcase-slider .trims {
 	-moz-column-count:1!important; /* I Hate this line. More so browser specific code that only works in one browser. CP */
-	padding:5px!important;
+	padding:5px 5px 5px 20px!important;
 	position:relative!important;
 	text-align:left!important;
 	top:-80px!important;
 	width:auto!important;
 	z-index:1000!important;
-	margin:0 0 0 25px!important;
+	margin:0!important;
 	background-color:#fff!important;
 	list-style-image:url("/wp-content/uploads/quick-find-bullet.png") !important;
 }
