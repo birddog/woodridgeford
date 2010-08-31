@@ -725,7 +725,7 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#1d4a9f;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/2010/03/thumbnails-end.png) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/2010/03/thumbnails-begin.png) no-repeat scroll 0 0 transparent!important;}
-input.go-button {width:23px;height:21px;background: url(/wp-content/uploads/GoButton.png) no-repeat top left transparent;border:none;color:transparent;text-indent:-100px;}
+input.go-button {width:23px;height:21px;text-indent:-999em;background: url(/wp-content/uploads/GoButton.png) no-repeat top left transparent;border:none;color:transparent;text-indent:-100px;}
 
 /**********************************************/
 /* Lightbox
