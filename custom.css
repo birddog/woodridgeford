@@ -697,6 +697,10 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .bird_dog .listings .search .quick-combo-search .combo .options{display:none;position:absolute;top:16px;left:-1px;z-index:8888;min-width:106px;overflow:hidden;background:white;padding:2px 4px;border:solid 1px #ccc;border-radius:0px 0px 4px 4px;-moz-border-radius:0px 0px 4px 4px;-webkit-border-radius:0px 0px 4px 4px;list-style:none;}
 .bird_dog .listings .search .quick-combo-search .combo .options a{display:block;text-decoration:none;color:black;margin-bottom:5px;}
 .bird_dog .listings .search .quick-combo-search .combo .options a:hover{color:#1d4a9f;}
+*+html .bird_dog .listings .search .quick-combo-search label, 
+*+html .bird_dog .listings .search .quick-combo-search .combo{
+	float:left;
+}
 .dt-showcase .equipment,
 .dt-showcase .options,
 .bird_dog .detail .vehicle-desc,
