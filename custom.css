@@ -25,9 +25,7 @@ td li{text-align:left}
 hr{border:0; color:#999; background-color:#999; height:1px; width:100%; text-align:left}
 .top{vertical-align:text-top}
 
-img, 
 .slideshowwidget{background:url(/wp-content/uploads/ajax-loader1.gif) no-repeat scroll 50% 50% transparent!important}
-#closeButton, .required{background:none!important}
 
 /**************************************
 * General Layout Regions
