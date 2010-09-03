@@ -623,6 +623,7 @@ ul#steps li{color:#CCCCCC;display:block;float:left;font-size:14px;font-weight:bo
 #subForm {}
 #subForm label{float:left;}
 #subForm input{}
+#subForm br{clear:both; height:1%;display:none;}
 
 
 /**************************************
