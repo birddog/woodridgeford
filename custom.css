@@ -621,7 +621,7 @@ ul#steps li{color:#CCCCCC;display:block;float:left;font-size:14px;font-weight:bo
 /* news letter form */
 
 #subForm {}
-#subForm fieldset {border:1px solid #999;padding:5px;width:80%;-moz-border-radius:5px;-webkit-border-radius:5px;}
+#subForm fieldset {border:1px solid #ddd;padding:5px;width:80%;background-color:#999999;-moz-border-radius:5px;-webkit-border-radius:5px;}
 #subForm fieldset legend {font-size:16px; font-weight:bold;color:#1d4a9f;}
 #subForm label{float:left;width:50px; font-weight:bold;margin:0 0 5px;text-align:right;padding-right:5px;}
 #subForm input{float:left;margin:0 0 5px;}
