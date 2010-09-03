@@ -621,6 +621,8 @@ ul#steps li{color:#CCCCCC;display:block;float:left;font-size:14px;font-weight:bo
 /* news letter form */
 
 #subForm {}
+#subForm fieldset {border:1px solid #999;padding:5px;}
+#subForm fieldset legend {font-size:12px; font-weight:bold;}
 #subForm label{float:left;}
 #subForm input{float:left;}
 #subForm br{clear:both; height:1%;display:none;}
