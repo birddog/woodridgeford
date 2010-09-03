@@ -622,7 +622,7 @@ ul#steps li{color:#CCCCCC;display:block;float:left;font-size:14px;font-weight:bo
 
 #subForm {}
 #subForm fieldset {border:1px solid #999;padding:5px;}
-#subForm fieldset legend {font-size:12px; font-weight:bold;}
+#subForm fieldset legend {font-size:16px; font-weight:bold;color:#1d4a9f;}
 #subForm label{float:left;}
 #subForm input{float:left;}
 #subForm br{clear:both; height:1%;}
