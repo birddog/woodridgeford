@@ -618,6 +618,13 @@ ul#steps li{color:#CCCCCC;display:block;float:left;font-size:14px;font-weight:bo
 #tradeEstimate .next:hover, #tradeEstimate .prev:hover ,
 .btnsubmit:hover,.btnsubmit:focus{background-color:#1d4a9f;}
 
+/* news letter form */
+
+#subForm {}
+#subForm label{float:left;}
+#subForm input{}
+
+
 /**************************************
 * Flash App Pages
 **************************************/
